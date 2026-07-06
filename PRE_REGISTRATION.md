@@ -63,6 +63,8 @@ Reported for honesty; none was motivated by interim results:
   kills during Arm 1 on a 128-GB host — an infrastructure failure, not a finding;
   the smallest-capacity substitute (Qwen2-0.5B-Instruct) was used instead. Their
   TOFU substrate (Llama-3.2-1B) is gated on Hugging Face and was not accessible.
-- **α = 0.6** is their reported TOFU α_best and was fixed before the first full run
-  (a smoke test at α = 1.0 cut aggressively across the board); it is deliberately
-  chosen in favor of the linearity hypothesis.
+- **α = 0.6** is the value the authors selected for their fixed-α Engram variant on
+  the TOFU LLM benchmark (Table 3; grid search {0.05..1.0}), and was fixed before the
+  first full run. It is their own value, adopted rather than tuned to amplify the
+  effect (a smoke test at α = 1.0 saturated collateral across the board); α was not
+  swept toward the small-α limit where first-order composition is most accurate.

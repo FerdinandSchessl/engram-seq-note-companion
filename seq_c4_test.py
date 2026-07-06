@@ -30,8 +30,9 @@ from engram.llm import _loader  # package-private loader, identical to the get_e
 
 MODEL_ID = "Qwen/Qwen3-0.6B"  # default; --model overrides (replication charges)
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
-ALPHA = 0.6  # their TOFU alpha_best (Tab. 3) — chosen conservatively IN FAVOR of the
-             # linearity hypothesis (a smoke test at 1.0 cut aggressively across the board);
+ALPHA = 0.6  # the authors' selected fixed-alpha value for the TOFU LLM benchmark
+             # (Table 3; grid search {0.05..1.0}). Their own value, not tuned to amplify
+             # the effect (a smoke test at 1.0 saturated collateral across the board);
              # scale stays at the paper default count_ratio n/N via apply_engram defaults
 
 CONCEPTS = {
