@@ -1,0 +1,153 @@
+{
+  "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "alpha": 0.6,
+  "smoke": false,
+  "nll_m0": {
+    "A_eiffel": 6.0284,
+    "B_louvre": 6.2537,
+    "C_colosseum": 5.8492,
+    "D_brandenburg": 5.7282,
+    "E_insulin": 2.9768,
+    "F_python": 2.0579
+  },
+  "arm1_nll_steps": [
+    {
+      "cut": "A_eiffel",
+      "nll": {
+        "A_eiffel": 7.7998,
+        "B_louvre": 7.2096,
+        "C_colosseum": 5.6315,
+        "D_brandenburg": 5.4208,
+        "E_insulin": 2.9405,
+        "F_python": 2.0915
+      }
+    },
+    {
+      "cut": "C_colosseum",
+      "nll": {
+        "A_eiffel": 7.3652,
+        "B_louvre": 6.2887,
+        "C_colosseum": 8.2173,
+        "D_brandenburg": 5.1034,
+        "E_insulin": 2.8962,
+        "F_python": 1.651
+      }
+    },
+    {
+      "cut": "E_insulin",
+      "nll": {
+        "A_eiffel": 8.9941,
+        "B_louvre": 4.637,
+        "C_colosseum": 9.5075,
+        "D_brandenburg": 5.0504,
+        "E_insulin": 9.1583,
+        "F_python": 1.6709
+      }
+    }
+  ],
+  "arm2_steps": [
+    {
+      "cut": "A_eiffel",
+      "nll": {
+        "A_eiffel": 7.7998,
+        "B_louvre": 7.2096,
+        "C_colosseum": 5.6315,
+        "D_brandenburg": 5.4208,
+        "E_insulin": 2.9405,
+        "F_python": 2.0915
+      },
+      "cov_drift_remaining": {
+        "B_louvre": 0.41469,
+        "C_colosseum": 0.29181,
+        "D_brandenburg": 0.27176,
+        "E_insulin": 0.13652,
+        "F_python": 0.1523
+      }
+    },
+    {
+      "cut": "C_colosseum",
+      "nll": {
+        "A_eiffel": 9.1136,
+        "B_louvre": 5.3211,
+        "C_colosseum": 9.4782,
+        "D_brandenburg": 3.9404,
+        "E_insulin": 2.8181,
+        "F_python": 1.4304
+      },
+      "cov_drift_remaining": {
+        "B_louvre": 0.66746,
+        "D_brandenburg": 0.51033,
+        "E_insulin": 0.30158,
+        "F_python": 0.29088
+      }
+    },
+    {
+      "cut": "E_insulin",
+      "nll": {
+        "A_eiffel": 8.8638,
+        "B_louvre": 6.0397,
+        "C_colosseum": 9.5938,
+        "D_brandenburg": 3.8087,
+        "E_insulin": 6.7398,
+        "F_python": 1.9006
+      },
+      "cov_drift_remaining": {
+        "B_louvre": 0.78621,
+        "D_brandenburg": 0.63638,
+        "F_python": 0.44604
+      }
+    }
+  ],
+  "V1_arm_divergence": {
+    "dist_m0_m1": 0.3065508793784125,
+    "dist_m1_m2": 0.19678251467562552,
+    "ratio": 0.6419244827285957
+  },
+  "V2_commutativity": {
+    "A_eiffel_B_louvre": {
+      "weight_dist_xy_yx": 0.2572608445718464,
+      "scale_dist_m0_xy": 0.28198176016730647,
+      "ratio": 0.9123315083156269,
+      "max_abs_dNLL": 2.4755000000000003,
+      "nll_xy": {
+        "A_eiffel": 9.4822,
+        "B_louvre": 7.5512,
+        "C_colosseum": 4.8639,
+        "D_brandenburg": 5.5138,
+        "E_insulin": 3.0649,
+        "F_python": 2.0787
+      },
+      "nll_yx": {
+        "A_eiffel": 7.0067,
+        "B_louvre": 8.8994,
+        "C_colosseum": 6.1471,
+        "D_brandenburg": 4.254,
+        "E_insulin": 2.9918,
+        "F_python": 2.6602
+      }
+    },
+    "A_eiffel_F_python": {
+      "weight_dist_xy_yx": 0.12664018297837173,
+      "scale_dist_m0_xy": 0.2718185092577891,
+      "ratio": 0.4658997774791045,
+      "max_abs_dNLL": 1.1531000000000002,
+      "nll_xy": {
+        "A_eiffel": 7.6454,
+        "B_louvre": 7.5047,
+        "C_colosseum": 4.8588,
+        "D_brandenburg": 5.1123,
+        "E_insulin": 2.9198,
+        "F_python": 10.5005
+      },
+      "nll_yx": {
+        "A_eiffel": 7.9499,
+        "B_louvre": 7.3769,
+        "C_colosseum": 5.0883,
+        "D_brandenburg": 4.8267,
+        "E_insulin": 2.8719,
+        "F_python": 11.6536
+      }
+    }
+  },
+  "runtime_sec": 15617.5
+}
