@@ -1,0 +1,129 @@
+{
+ "model": "Qwen/Qwen2-0.5B-Instruct",
+ "alpha": 0.6,
+ "smoke": false,
+ "nll_baseline": {
+  "A_eiffel": 0.0495,
+  "B_louvre": 0.0197,
+  "C_colosseum": 0.0351,
+  "D_brandenburg": 0.2017,
+  "E_insulin": 0.3865,
+  "F_python": 0.5361
+ },
+ "targets": {
+  "A_eiffel": {
+   "nll_solo": 8.9077,
+   "nll_baseline": 0.0495,
+   "cut_effective": 8.8582,
+   "arms": [
+    {
+     "X": "B_louvre",
+     "nll_TX": 7.3657,
+     "nll_TX_placebo": 12.9629,
+     "dNLL_real": -1.542,
+     "dNLL_placebo": 4.0552,
+     "naehe_cos": 0.82663,
+     "dose_mean_rel_frob": 0.28582,
+     "sec": 140.4
+    },
+    {
+     "X": "C_colosseum",
+     "nll_TX": 5.2096,
+     "nll_TX_placebo": 15.9367,
+     "dNLL_real": -3.6981,
+     "dNLL_placebo": 7.029,
+     "naehe_cos": 0.76863,
+     "dose_mean_rel_frob": 0.314521,
+     "sec": 140.7
+    },
+    {
+     "X": "D_brandenburg",
+     "nll_TX": 4.0189,
+     "nll_TX_placebo": 7.4925,
+     "dNLL_real": -4.8888,
+     "dNLL_placebo": -1.4152,
+     "naehe_cos": 0.79745,
+     "dose_mean_rel_frob": 0.278139,
+     "sec": 139.8
+    },
+    {
+     "X": "E_insulin",
+     "nll_TX": 9.2713,
+     "nll_TX_placebo": 19.225,
+     "dNLL_real": 0.3636,
+     "dNLL_placebo": 10.3173,
+     "naehe_cos": 0.5088,
+     "dose_mean_rel_frob": 0.256734,
+     "sec": 141.7
+    },
+    {
+     "X": "F_python",
+     "nll_TX": 10.183,
+     "nll_TX_placebo": 10.008,
+     "dNLL_real": 1.2753,
+     "dNLL_placebo": 1.1003,
+     "naehe_cos": 0.52285,
+     "dose_mean_rel_frob": 0.283587,
+     "sec": 140.7
+    }
+   ]
+  },
+  "E_insulin": {
+   "nll_solo": 14.1757,
+   "nll_baseline": 0.3865,
+   "cut_effective": 13.7892,
+   "arms": [
+    {
+     "X": "A_eiffel",
+     "nll_TX": 13.5079,
+     "nll_TX_placebo": 14.8004,
+     "dNLL_real": -0.6678,
+     "dNLL_placebo": 0.6247,
+     "naehe_cos": 0.5088,
+     "dose_mean_rel_frob": 0.337811,
+     "sec": 140.1
+    },
+    {
+     "X": "B_louvre",
+     "nll_TX": 15.8499,
+     "nll_TX_placebo": 13.7643,
+     "dNLL_real": 1.6742,
+     "dNLL_placebo": -0.4114,
+     "naehe_cos": 0.51734,
+     "dose_mean_rel_frob": 0.350489,
+     "sec": 140.5
+    },
+    {
+     "X": "C_colosseum",
+     "nll_TX": 12.6451,
+     "nll_TX_placebo": 13.8795,
+     "dNLL_real": -1.5306,
+     "dNLL_placebo": -0.2962,
+     "naehe_cos": 0.49981,
+     "dose_mean_rel_frob": 0.365998,
+     "sec": 141.0
+    },
+    {
+     "X": "D_brandenburg",
+     "nll_TX": 13.9265,
+     "nll_TX_placebo": 20.3463,
+     "dNLL_real": -0.2492,
+     "dNLL_placebo": 6.1706,
+     "naehe_cos": 0.50407,
+     "dose_mean_rel_frob": 0.320993,
+     "sec": 139.5
+    },
+    {
+     "X": "F_python",
+     "nll_TX": 13.3032,
+     "nll_TX_placebo": 15.3787,
+     "dNLL_real": -0.8725,
+     "dNLL_placebo": 1.203,
+     "naehe_cos": 0.47129,
+     "dose_mean_rel_frob": 0.292273,
+     "sec": 136.5
+    }
+   ]
+  }
+ }
+}

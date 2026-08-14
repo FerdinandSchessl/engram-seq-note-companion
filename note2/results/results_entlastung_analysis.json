@@ -1,0 +1,107 @@
+{
+ "analysis": "ZETTEL_entlastung_P3 frozen",
+ "targets": {
+  "A_eiffel": {
+   "cut_effective": 8.8582,
+   "nll_solo": 8.9077,
+   "arms": [
+    {
+     "X": "B_louvre",
+     "naehe": 0.82663,
+     "dNLL_real": -1.542,
+     "dNLL_placebo": 4.0552,
+     "real_minus_placebo": -5.5972,
+     "dose": 0.28582
+    },
+    {
+     "X": "C_colosseum",
+     "naehe": 0.76863,
+     "dNLL_real": -3.6981,
+     "dNLL_placebo": 7.029,
+     "real_minus_placebo": -10.7271,
+     "dose": 0.314521
+    },
+    {
+     "X": "D_brandenburg",
+     "naehe": 0.79745,
+     "dNLL_real": -4.8888,
+     "dNLL_placebo": -1.4152,
+     "real_minus_placebo": -3.4736,
+     "dose": 0.278139
+    },
+    {
+     "X": "E_insulin",
+     "naehe": 0.5088,
+     "dNLL_real": 0.3636,
+     "dNLL_placebo": 10.3173,
+     "real_minus_placebo": -9.9537,
+     "dose": 0.256734
+    },
+    {
+     "X": "F_python",
+     "naehe": 0.52285,
+     "dNLL_real": 1.2753,
+     "dNLL_placebo": 1.1003,
+     "real_minus_placebo": 0.175,
+     "dose": 0.283587
+    }
+   ],
+   "primary_spearman_dNLLreal_vs_naehe": -0.6,
+   "perm_p_preregistered_gt0": 0.8833,
+   "perm_p_opposite_lt0": 0.175,
+   "K1_spearman_realMinusPlacebo_vs_naehe": 0.1,
+   "K1_mean_real_minus_placebo": -5.9153
+  },
+  "E_insulin": {
+   "cut_effective": 13.7892,
+   "nll_solo": 14.1757,
+   "arms": [
+    {
+     "X": "A_eiffel",
+     "naehe": 0.5088,
+     "dNLL_real": -0.6678,
+     "dNLL_placebo": 0.6247,
+     "real_minus_placebo": -1.2925,
+     "dose": 0.337811
+    },
+    {
+     "X": "B_louvre",
+     "naehe": 0.51734,
+     "dNLL_real": 1.6742,
+     "dNLL_placebo": -0.4114,
+     "real_minus_placebo": 2.0856,
+     "dose": 0.350489
+    },
+    {
+     "X": "C_colosseum",
+     "naehe": 0.49981,
+     "dNLL_real": -1.5306,
+     "dNLL_placebo": -0.2962,
+     "real_minus_placebo": -1.2344,
+     "dose": 0.365998
+    },
+    {
+     "X": "D_brandenburg",
+     "naehe": 0.50407,
+     "dNLL_real": -0.2492,
+     "dNLL_placebo": 6.1706,
+     "real_minus_placebo": -6.4198,
+     "dose": 0.320993
+    },
+    {
+     "X": "F_python",
+     "naehe": 0.47129,
+     "dNLL_real": -0.8725,
+     "dNLL_placebo": 1.203,
+     "real_minus_placebo": -2.0755,
+     "dose": 0.292273
+    }
+   ],
+   "primary_spearman_dNLLreal_vs_naehe": 0.8,
+   "perm_p_preregistered_gt0": 0.0667,
+   "perm_p_opposite_lt0": 0.9583,
+   "K1_spearman_realMinusPlacebo_vs_naehe": 0.5,
+   "K1_mean_real_minus_placebo": -1.7873
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "version": "1.0-frozen-2026-07-08",
+    "doc": "Messblock 2 (P2 Trajektorien): 10 Dialoge auf RETAIN-Themen, je 8 fixe User-Turns (Turn 1 themenspezifisch, Turns 2-8 identisches Skript). Eingefroren mit PRE_REG_PAPER2.md Block-2-Nachtrag.",
+    "followups": [
+      "Interesting. Why is that the case?",
+      "Can you give a concrete everyday example?",
+      "How would you explain this to a ten-year-old?",
+      "What is a common misconception about this?",
+      "How does this connect to other areas of daily life?",
+      "What practical advice follows from all this?",
+      "Please summarize our conversation in two sentences."
+    ]
+  },
+  "openers": [
+    "Tell me about why water boils at one hundred degrees Celsius at sea level.",
+    "Tell me about Tokyo as the capital of Japan.",
+    "Tell me about how photosynthesis converts sunlight into chemical energy.",
+    "Tell me about Mount Everest as the highest mountain on Earth.",
+    "Tell me about Shakespeare and his famous plays.",
+    "Tell me about how the heart pumps blood through the body.",
+    "Tell me about cats as popular household pets.",
+    "Tell me about the Pacific as the largest ocean on the planet.",
+    "Tell me about how bread is made from flour, water, and yeast.",
+    "Tell me about how the moon orbits the Earth roughly once a month."
+  ]
+}

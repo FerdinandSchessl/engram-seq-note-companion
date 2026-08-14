@@ -1,0 +1,181 @@
+{
+ "analysis": "PRE_REG P4b frozen scheme",
+ "cells": {
+  "E_insulin_var_sv_ai": {
+   "engram": {
+    "median": 0.16678020560409718,
+    "p": 0.009765625,
+    "r_rb": 0.8909090909090909,
+    "ci": [
+     0.06829700894587684,
+     0.24796002407471363
+    ]
+   },
+   "placebo": {
+    "median": -0.03305886127758433,
+    "p": 0.375,
+    "r_rb": -0.34545454545454546,
+    "ci": [
+     -0.052561566851274374,
+     0.03083412697458345
+    ]
+   }
+  },
+  "F_python_var_sv_ai": {
+   "engram": {
+    "median": 0.0911454911446574,
+    "p": 0.02734375,
+    "r_rb": 0.7818181818181819,
+    "ci": [
+     -0.006370894921278632,
+     0.14473784173430054
+    ]
+   },
+   "placebo": {
+    "median": 0.003914083427442268,
+    "p": 0.4921875,
+    "r_rb": 0.2727272727272727,
+    "ci": [
+     -0.017045926259965715,
+     0.03387923402783973
+    ]
+   }
+  },
+  "A_eiffel_var_sv_ai": {
+   "engram": {
+    "median": 0.023327578808356966,
+    "p": 0.037109375,
+    "r_rb": 0.7454545454545455,
+    "ci": [
+     -0.000240963993989287,
+     0.10598716930511373
+    ]
+   },
+   "placebo": {
+    "median": -0.040459656941620764,
+    "p": 0.001953125,
+    "r_rb": -1.0,
+    "ci": [
+     -0.059853604450449086,
+     -0.023463260332139774
+    ]
+   }
+  },
+  "E_insulin_E_ai_mean": {
+   "engram": {
+    "median": 2.2980662607457636,
+    "p": 0.130859375,
+    "r_rb": 0.5636363636363636,
+    "ci": [
+     -0.756891763236584,
+     15.77555311476658
+    ]
+   },
+   "placebo": {
+    "median": -0.10989220655988785,
+    "p": 0.6953125,
+    "r_rb": -0.16363636363636364,
+    "ci": [
+     -0.7600289712286601,
+     0.4418843506547377
+    ]
+   }
+  },
+  "F_python_E_ai_mean": {
+   "engram": {
+    "median": 3.7934641320068896,
+    "p": 0.001953125,
+    "r_rb": 1.0,
+    "ci": [
+     2.4836955440574005,
+     19.130199269258412
+    ]
+   },
+   "placebo": {
+    "median": 1.6043666576303393,
+    "p": 0.001953125,
+    "r_rb": 1.0,
+    "ci": [
+     0.8622215443921704,
+     3.302329334207239
+    ]
+   }
+  },
+  "A_eiffel_E_ai_mean": {
+   "engram": {
+    "median": 7.7836414320195475,
+    "p": 0.001953125,
+    "r_rb": 1.0,
+    "ci": [
+     4.0349282889973335,
+     12.433540180078058
+    ]
+   },
+   "placebo": {
+    "median": -0.04579774726846997,
+    "p": 1.0,
+    "r_rb": -0.01818181818181818,
+    "ci": [
+     -0.40932830161548783,
+     0.4600603217218748
+    ]
+   }
+  }
+ },
+ "criteria": {
+  "var_sv_ai": {
+   "cells": [
+    {
+     "concept": "E_insulin",
+     "med_engram": 0.1668,
+     "med_placebo": -0.0331,
+     "ratio_p_over_e": 0.198,
+     "edit_specific": true
+    },
+    {
+     "concept": "F_python",
+     "med_engram": 0.0911,
+     "med_placebo": 0.0039,
+     "ratio_p_over_e": 0.043,
+     "edit_specific": true
+    },
+    {
+     "concept": "A_eiffel",
+     "med_engram": 0.0233,
+     "med_placebo": -0.0405,
+     "ratio_p_over_e": 1.734,
+     "edit_specific": false
+    }
+   ],
+   "edit_specific_count": 2,
+   "PASS_edit_specific": true
+  },
+  "E_ai_mean": {
+   "cells": [
+    {
+     "concept": "E_insulin",
+     "med_engram": 2.2981,
+     "med_placebo": -0.1099,
+     "ratio_p_over_e": 0.048,
+     "edit_specific": true
+    },
+    {
+     "concept": "F_python",
+     "med_engram": 3.7935,
+     "med_placebo": 1.6044,
+     "ratio_p_over_e": 0.423,
+     "edit_specific": true
+    },
+    {
+     "concept": "A_eiffel",
+     "med_engram": 7.7836,
+     "med_placebo": -0.0458,
+     "ratio_p_over_e": 0.006,
+     "edit_specific": true
+    }
+   ],
+   "edit_specific_count": 3,
+   "PASS_edit_specific": true
+  }
+ }
+}

@@ -1,8 +1,20 @@
-# Companion — "Forgetting Is Not a Fix: Path Dependence in Sequential Engram Editing"
+# Companion — engram note series (Ferdinand M. Schessl, 2026)
+
+Reproducibility companions for a series of short notes on sequential engram
+editing. Each note ships its pre-registration, raw-result JSONs, measurement
+scripts, and a stdlib-only number verifier.
+
+| Note | Title | Companion |
+|---|---|---|
+| Note 1 | *Forgetting Is Not a Fix: Path Dependence in Sequential Engram Editing* | this directory (root) |
+| Note 2 | *Surgical in Knowledge, Generic in Behavior: Post-Edit Behavioral Qualification of Engram Edits* | [`note2/`](note2/) |
+
+---
+
+## Note 1 — "Forgetting Is Not a Fix: Path Dependence in Sequential Engram Editing"
 
 Code and raw data for the note *"Forgetting Is Not a Fix: Path Dependence in
-Sequential Engram Editing"* (Ferdinand M. Schessl, 2026; arXiv ID to be added
-after announcement).
+Sequential Engram Editing"* (Ferdinand M. Schessl, 2026; arXiv:2607.24805).
 
 The note tests the Compositional Memory States Hypothesis (Appendix F) of
 

@@ -1,0 +1,412 @@
+{
+ "analysis": "P2 Block-2 Sensitivitaet Laengen-Kontrolle",
+ "stats_schema": "p2_analyze_traj.py stats() (Wilcoxon two-sided, median, r_rb, bootstrap CI B=2000 seed=42)",
+ "B": 2000,
+ "seed": 42,
+ "n_dialogs": 10,
+ "metrics": [
+  "var_sv_ai",
+  "E_ai_mean"
+ ],
+ "cells": {
+  "E_insulin_a0.3": {
+   "dlen": {
+    "median": -380.5625,
+    "p": 0.001953125,
+    "r_rb": -1.0,
+    "ci": [
+     -439.25,
+     -302.5
+    ],
+    "n": 10,
+    "deltas": [
+     -439.25,
+     -375.875,
+     -444.75,
+     -385.25,
+     -420.125,
+     -229.125,
+     -463.75,
+     -347.75,
+     -106.875,
+     -341.375
+    ]
+   },
+   "spearman": {
+    "var_sv_ai": {
+     "rho": -0.04242424242424241,
+     "p": 0.9073638178128159
+    },
+    "E_ai_mean": {
+     "rho": 0.23636363636363633,
+     "p": 0.5108853175152003
+    }
+   },
+   "raw_median_delta": {
+    "var_sv_ai": -0.012915865511106376,
+    "E_ai_mean": -0.6109792579976909
+   },
+   "residual_median": {
+    "var_sv_ai": -0.11989332108145742,
+    "E_ai_mean": -9.481365801928561
+   },
+   "sign_match": {
+    "var_sv_ai": true,
+    "E_ai_mean": true
+   }
+  },
+  "E_insulin_a0.6": {
+   "dlen": {
+    "median": -375.875,
+    "p": 0.001953125,
+    "r_rb": -1.0,
+    "ci": [
+     -385.875,
+     -214.625
+    ],
+    "n": 10,
+    "deltas": [
+     -377.5,
+     -379.25,
+     -385.875,
+     -401.875,
+     -374.25,
+     -309.875,
+     -119.375,
+     -341.125,
+     -385.875,
+     -42.125
+    ]
+   },
+   "spearman": {
+    "var_sv_ai": {
+     "rho": -0.09118583155200968,
+     "p": 0.8021812915092663
+    },
+    "E_ai_mean": {
+     "rho": -0.024316221747202584,
+     "p": 0.9468397049085097
+    }
+   },
+   "raw_median_delta": {
+    "var_sv_ai": 0.16678020560409718,
+    "E_ai_mean": 2.2980662607457636
+   },
+   "residual_median": {
+    "var_sv_ai": 0.08517579191206431,
+    "E_ai_mean": -6.57708097378701
+   },
+   "sign_match": {
+    "var_sv_ai": true,
+    "E_ai_mean": false
+   }
+  },
+  "F_python_a0.3": {
+   "dlen": {
+    "median": -236.375,
+    "p": 0.001953125,
+    "r_rb": -1.0,
+    "ci": [
+     -369.375,
+     -219.1875
+    ],
+    "n": 10,
+    "deltas": [
+     -235.375,
+     -369.375,
+     -289.0,
+     -237.375,
+     -430.25,
+     -204.25,
+     -421.875,
+     -234.125,
+     -230.625,
+     -45.25
+    ]
+   },
+   "spearman": {
+    "var_sv_ai": {
+     "rho": -0.3696969696969697,
+     "p": 0.29305007529282234
+    },
+    "E_ai_mean": {
+     "rho": -0.49090909090909085,
+     "p": 0.1496556734208368
+    }
+   },
+   "raw_median_delta": {
+    "var_sv_ai": 0.10179304272624676,
+    "E_ai_mean": 1.6183479486943162
+   },
+   "residual_median": {
+    "var_sv_ai": 0.012797033535607065,
+    "E_ai_mean": -7.256663779212957
+   },
+   "sign_match": {
+    "var_sv_ai": true,
+    "E_ai_mean": false
+   }
+  },
+  "F_python_a0.6": {
+   "dlen": {
+    "median": -131.4375,
+    "p": 0.130859375,
+    "r_rb": -0.5636363636363636,
+    "ci": [
+     -209.24374999999998,
+     71.875
+    ],
+    "n": 10,
+    "deltas": [
+     -253.625,
+     -189.5,
+     151.875,
+     71.875,
+     -39.375,
+     137.25,
+     -277.125,
+     -122.0,
+     -160.375,
+     -140.875
+    ]
+   },
+   "spearman": {
+    "var_sv_ai": {
+     "rho": 0.09090909090909088,
+     "p": 0.8027717312071619
+    },
+    "E_ai_mean": {
+     "rho": -0.309090909090909,
+     "p": 0.38484123026128353
+    }
+   },
+   "raw_median_delta": {
+    "var_sv_ai": 0.0911454911446574,
+    "E_ai_mean": 3.7934641320068896
+   },
+   "residual_median": {
+    "var_sv_ai": 0.022102754140111164,
+    "E_ai_mean": -5.0885514925677935
+   },
+   "sign_match": {
+    "var_sv_ai": true,
+    "E_ai_mean": false
+   }
+  },
+  "A_eiffel_a0.3": {
+   "dlen": {
+    "median": -325.3125,
+    "p": 0.001953125,
+    "r_rb": -1.0,
+    "ci": [
+     -399.75,
+     -254.0
+    ],
+    "n": 10,
+    "deltas": [
+     -400.0,
+     -304.125,
+     -403.5,
+     -349.125,
+     -227.5,
+     -259.125,
+     -399.75,
+     -248.875,
+     -346.5,
+     -255.75
+    ]
+   },
+   "spearman": {
+    "var_sv_ai": {
+     "rho": -0.33333333333333326,
+     "p": 0.3465935070873343
+    },
+    "E_ai_mean": {
+     "rho": 0.41818181818181815,
+     "p": 0.22911284098281892
+    }
+   },
+   "raw_median_delta": {
+    "var_sv_ai": 0.05232778965639516,
+    "E_ai_mean": -0.3998895940772579
+   },
+   "residual_median": {
+    "var_sv_ai": -0.04809027523073582,
+    "E_ai_mean": -9.272716889877072
+   },
+   "sign_match": {
+    "var_sv_ai": false,
+    "E_ai_mean": true
+   }
+  },
+  "A_eiffel_a0.6": {
+   "dlen": {
+    "median": -179.75,
+    "p": 0.001953125,
+    "r_rb": -1.0,
+    "ci": [
+     -270.5,
+     -128.5
+    ],
+    "n": 10,
+    "deltas": [
+     -200.875,
+     -140.375,
+     -232.125,
+     -315.125,
+     -245.625,
+     -122.25,
+     -308.875,
+     -134.75,
+     -158.625,
+     -115.0
+    ]
+   },
+   "spearman": {
+    "var_sv_ai": {
+     "rho": -0.06666666666666665,
+     "p": 0.8548130882487427
+    },
+    "E_ai_mean": {
+     "rho": 0.309090909090909,
+     "p": 0.38484123026128353
+    }
+   },
+   "raw_median_delta": {
+    "var_sv_ai": 0.023327578808356966,
+    "E_ai_mean": 7.7836414320195475
+   },
+   "residual_median": {
+    "var_sv_ai": -0.05686973092647881,
+    "E_ai_mean": -1.093522075796268
+   },
+   "sign_match": {
+    "var_sv_ai": false,
+    "E_ai_mean": false
+   }
+  }
+ },
+ "pooled": {
+  "n_pairs": 60,
+  "spearman": {
+   "var_sv_ai": {
+    "rho": -0.06507453563472733,
+    "p": 0.621316207710967
+   },
+   "E_ai_mean": {
+    "rho": 0.265549674236161,
+    "p": 0.04030146793577303
+   }
+  },
+  "ols": {
+   "var_sv_ai": {
+    "slope": -9.171282820381943e-05,
+    "intercept": 0.06731738942396188
+   },
+   "E_ai_mean": {
+    "slope": 2.6121759132531483e-05,
+    "intercept": 8.880737290987135
+   }
+  }
+ },
+ "direction_stability": {
+  "var_sv_ai": {
+   "n_match": 4,
+   "n_cells": 6,
+   "PASS": false,
+   "per_cell": {
+    "E_insulin_a0.3": {
+     "raw_median_delta": -0.012915865511106376,
+     "residual_median": -0.11989332108145742,
+     "raw_sign": -1,
+     "resid_sign": -1,
+     "match": true
+    },
+    "E_insulin_a0.6": {
+     "raw_median_delta": 0.16678020560409718,
+     "residual_median": 0.08517579191206431,
+     "raw_sign": 1,
+     "resid_sign": 1,
+     "match": true
+    },
+    "F_python_a0.3": {
+     "raw_median_delta": 0.10179304272624676,
+     "residual_median": 0.012797033535607065,
+     "raw_sign": 1,
+     "resid_sign": 1,
+     "match": true
+    },
+    "F_python_a0.6": {
+     "raw_median_delta": 0.0911454911446574,
+     "residual_median": 0.022102754140111164,
+     "raw_sign": 1,
+     "resid_sign": 1,
+     "match": true
+    },
+    "A_eiffel_a0.3": {
+     "raw_median_delta": 0.05232778965639516,
+     "residual_median": -0.04809027523073582,
+     "raw_sign": 1,
+     "resid_sign": -1,
+     "match": false
+    },
+    "A_eiffel_a0.6": {
+     "raw_median_delta": 0.023327578808356966,
+     "residual_median": -0.05686973092647881,
+     "raw_sign": 1,
+     "resid_sign": -1,
+     "match": false
+    }
+   }
+  },
+  "E_ai_mean": {
+   "n_match": 2,
+   "n_cells": 6,
+   "PASS": false,
+   "per_cell": {
+    "E_insulin_a0.3": {
+     "raw_median_delta": -0.6109792579976909,
+     "residual_median": -9.481365801928561,
+     "raw_sign": -1,
+     "resid_sign": -1,
+     "match": true
+    },
+    "E_insulin_a0.6": {
+     "raw_median_delta": 2.2980662607457636,
+     "residual_median": -6.57708097378701,
+     "raw_sign": 1,
+     "resid_sign": -1,
+     "match": false
+    },
+    "F_python_a0.3": {
+     "raw_median_delta": 1.6183479486943162,
+     "residual_median": -7.256663779212957,
+     "raw_sign": 1,
+     "resid_sign": -1,
+     "match": false
+    },
+    "F_python_a0.6": {
+     "raw_median_delta": 3.7934641320068896,
+     "residual_median": -5.0885514925677935,
+     "raw_sign": 1,
+     "resid_sign": -1,
+     "match": false
+    },
+    "A_eiffel_a0.3": {
+     "raw_median_delta": -0.3998895940772579,
+     "residual_median": -9.272716889877072,
+     "raw_sign": -1,
+     "resid_sign": -1,
+     "match": true
+    },
+    "A_eiffel_a0.6": {
+     "raw_median_delta": 7.7836414320195475,
+     "residual_median": -1.093522075796268,
+     "raw_sign": 1,
+     "resid_sign": -1,
+     "match": false
+    }
+   }
+  }
+ }
+}

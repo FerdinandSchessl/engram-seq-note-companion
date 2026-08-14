@@ -1,0 +1,1803 @@
+{
+ "model": "Qwen/Qwen2-0.5B-Instruct",
+ "smoke": false,
+ "dialogs_version": "1.0-frozen-2026-07-08",
+ "max_new_tokens": 100,
+ "W": 5,
+ "cells": [
+  {
+   "cut": "E_insulin",
+   "alpha": 0.3,
+   "dialogs": [
+    {
+     "var_sv_ai": 0.005153351014870139,
+     "E_ai_mean": 0.5985787462398808,
+     "epsilon_ai_mean": 0.6382951935132345,
+     "sv_ai": [
+      0.0,
+      1.23241,
+      1.3121,
+      1.37105,
+      1.12493,
+      1.21061,
+      1.25478,
+      1.24387
+     ],
+     "ai_texts": [
+      "I.",
+      "Is this",
+      "What ()->a what?\n\n\n\nuser",
+      "How exactly",
+      "This",
+      "Which(Have you",
+      "H.",
+      "How do you want to understand the question?"
+     ]
+    },
+    {
+     "var_sv_ai": 0.009166634795445468,
+     "E_ai_mean": 0.7665934365407305,
+     "epsilon_ai_mean": 0.5268290539582571,
+     "sv_ai": [
+      0.0,
+      1.26524,
+      1.28819,
+      1.22571,
+      1.28159,
+      1.23914,
+      1.30634,
+      1.00429
+     ],
+     "ai_texts": [
+      "I, I have to make it clear.",
+      "What  ....\n\n\ud83d\ude09\ud83d\ude09",
+      "user",
+      "The just",
+      "(empty)",
+      "Is ...\"\n\nuser",
+      "Which??\n\n\ud83d\ude05",
+      "Which???\n\nuser"
+     ]
+    },
+    {
+     "var_sv_ai": 0.03262188342910412,
+     "E_ai_mean": 0.8065713949370479,
+     "epsilon_ai_mean": 0.515905370314916,
+     "sv_ai": [
+      0.0,
+      1.2099,
+      0.98288,
+      1.24863,
+      1.17431,
+      0.79647,
+      1.16344,
+      0.79257
+     ],
+     "ai_texts": [
+      "I'm-Methods,.\n\n\ud83d\ude09,...\n\nThe ....\n\nPlease write...\n\n\n\nA ____\u4e0d\u540c\u7684!.\n\nB\n\nB.",
+      "B.",
+      "B (::,",
+      "user(Have you",
+      "assistant\nuser strtolly\u203c",
+      "user\nassistant\nassistant,",
+      "user strtolly",
+      "user(SS"
+     ]
+    },
+    {
+     "var_sv_ai": 0.004211370963787431,
+     "E_ai_mean": 0.47676039755240657,
+     "epsilon_ai_mean": 0.8121187289555868,
+     "sv_ai": [
+      0.0,
+      1.3004,
+      1.3868,
+      1.17477,
+      1.2776,
+      1.29624,
+      1.19851,
+      1.27742
+     ],
+     "ai_texts": [
+      "I.",
+      "The best way??\n\n\ud83d\ude09 ....\n\nIt's most interesting ...\"\n\n,...\n\nIs it 's most interesting",
+      "Yes, I can you",
+      "Sure, I \"'.$",
+      "user",
+      "What is this connection to other areas of daily life(Have you",
+      "What is practical advice from all this?",
+      "Please summarize our conversation in two sentences?"
+     ]
+    },
+    {
+     "var_sv_ai": 0.0041270345738019625,
+     "E_ai_mean": 0.47600783222432,
+     "epsilon_ai_mean": 0.6954745103915533,
+     "sv_ai": [
+      0.0,
+      1.20149,
+      1.33302,
+      1.23305,
+      1.34738,
+      1.28779,
+      1.21459,
+      1.37476
+     ],
+     "ai_texts": [
+      "I have to be the best way to get the most important thing is that, but I'm not sure what it is.",
+      "Is ....\n\n\ud83d\ude09,...\n\nThe interesting thing,.\n\n.Does ...\"\n\nIs the interesting thing?\n\nIs the interesting thing?",
+      "What?",
+      "What(Have you want to ask this to old?",
+      "What is a common misconception about this?",
+      "How do this connect to other areas of daily life?",
+      "What practical advice follow from all this?",
+      "Please summarize our conversation in two sentences."
+     ]
+    },
+    {
+     "var_sv_ai": 0.005441452916978061,
+     "E_ai_mean": 0.5795182540493724,
+     "epsilon_ai_mean": 0.7021483331918716,
+     "sv_ai": [
+      0.0,
+      1.26137,
+      1.25841,
+      1.31635,
+      1.32533,
+      1.27466,
+      1.11931,
+      1.14783
+     ],
+     "ai_texts": [
+      "I suppose you read more of the to the what?",
+      "What is the question?",
+      "Is ...\"\n\nThe\n\n,...\n\n...\n\n\n\n ....\n\nuser",
+      "How?\n\n\n\n.....\n\n(Have ...\"\n\n,.\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...",
+      "How strtol",
+      "How\u0e31\u20ac\u2122",
+      "How",
+      "user"
+     ]
+    },
+    {
+     "var_sv_ai": 0.43340022672439443,
+     "E_ai_mean": 2.1552612703667062,
+     "epsilon_ai_mean": 0.19622516632080078,
+     "sv_ai": [
+      0.0,
+      1.37008,
+      1.38278,
+      1.22839,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "I'm(Have you, I'm ____ ....\n\n,...",
+      "What strtol",
+      "(empty)",
+      "user",
+      "user",
+      "user",
+      "user",
+      "user"
+     ]
+    },
+    {
+     "var_sv_ai": 0.3506629739406168,
+     "E_ai_mean": 0.937971879229536,
+     "epsilon_ai_mean": 0.4146784543991089,
+     "sv_ai": [
+      0.0,
+      1.16933,
+      1.13872,
+      1.15945,
+      1.30267,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "I,",
+      "The\n\nIt's interesting",
+      "What",
+      "user\nWhat is what",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)"
+     ]
+    },
+    {
+     "var_sv_ai": 0.05613196952232076,
+     "E_ai_mean": 0.7231282337759884,
+     "epsilon_ai_mean": 0.6878228783607483,
+     "sv_ai": [
+      0.0,
+      1.28525,
+      0.65437,
+      1.35946,
+      1.33531,
+      1.36331,
+      1.23194,
+      1.34436
+     ],
+     "ai_texts": [
+      "I suppose,...\n\nThe,",
+      ",.\n\n ....\n\n.Does ....\n\n.Does ....\n\nDoes ....\n\n.Does ....\n\n.Does ....\n\nDoes ....\n\n.Does ....\n\n.Does ....\n\nDoes ....\n\n.Does ....\n\n.Does ....\n\nDoes ....\n\nDoes ....\n\n.Does ....\n\nDoes ....\n\nDoes ....\n\n.Does ....\n\nDoes ....\n\nDoes ....\n\n.Does ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....",
+      "Can strtol ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes.... Does ....\n\nDoes ....\n\nDoes ....\n\nDoes",
+      "How would you explain this to a ten-year-old?",
+      "What is ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes....\n\nDoes ....\n\nDoes.....\n\nDoes.... Does ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes ....\n\nDoes.... Does ....\n\nDoes",
+      "How does this connect to other areas of daily life?",
+      "What practical advice follow from all this ?",
+      "Please summarize our conversation in two sentences. Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does.... Does....Does....Does....Does....Does.... Does....Does....Does....Does...."
+     ]
+    },
+    {
+     "var_sv_ai": 0.19179183888465218,
+     "E_ai_mean": 17.182651616749123,
+     "epsilon_ai_mean": 0.025765299797058105,
+     "sv_ai": [
+      0.0,
+      1.25152,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "I suppose...\n\n\n\nCan you?\n\n\n\nIs ....\n\nif?\n\n\n\nIs ...\"\n\nThe  ____",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)"
+     ]
+    }
+   ],
+   "sec": 1275.3
+  },
+  {
+   "cut": "E_insulin",
+   "alpha": 0.6,
+   "dialogs": [
+    {
+     "var_sv_ai": 0.21723843054114503,
+     "E_ai_mean": 15.874341089152786,
+     "epsilon_ai_mean": 0.027962028980255127,
+     "sv_ai": [
+      0.0,
+      1.33196,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "strtoltly ____ 1 ....\n\n,...\n\nI\u54c10 ....\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n,...\n\n,...\n\n,...\n\n,...\n\n0, ...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)"
+     ]
+    },
+    {
+     "var_sv_ai": 0.27745334711552083,
+     "E_ai_mean": 15.849203178631845,
+     "epsilon_ai_mean": 0.2772423674662908,
+     "sv_ai": [
+      0.0,
+      1.05109,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.26687
+     ],
+     "ai_texts": [
+      "I 10,...\n\n,Thousand,...\n\nThyen",
+      ",Thyen",
+      ",Thyen",
+      ",Thyen",
+      ",Thyen",
+      ",Thyen",
+      ",Thyen",
+      "user"
+     ]
+    },
+    {
+     "var_sv_ai": 0.328231600184867,
+     "E_ai_mean": 1.8343609635803764,
+     "epsilon_ai_mean": 0.5667672803004583,
+     "sv_ai": [
+      0.0,
+      1.24546,
+      1.36301,
+      0.0,
+      0.0,
+      1.28409,
+      0.71783,
+      1.32663
+     ],
+     "ai_texts": [
+      "I ,.\n\n,...\n\n,Thousand,",
+      ",...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th,...\n\n,Th",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "the the",
+      "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the",
+      "(empty)"
+     ]
+    },
+    {
+     "var_sv_ai": 0.013982127525056764,
+     "E_ai_mean": 0.5699004149219468,
+     "epsilon_ai_mean": 0.6735851665337881,
+     "sv_ai": [
+      0.0,
+      0.92293,
+      1.23771,
+      1.32261,
+      1.18512,
+      1.16518,
+      1.07391,
+      1.19424
+     ],
+     "ai_texts": [
+      "I  ....\n\nThe\n\n,Think",
+      ",Think",
+      "you'ren'to",
+      "How you think this at a time old?",
+      "What is a question about this?",
+      "How do this what?",
+      "What is what?",
+      "user"
+     ]
+    },
+    {
+     "var_sv_ai": 0.3651735045353942,
+     "E_ai_mean": 0.48955699344183473,
+     "epsilon_ai_mean": 0.863717570900917,
+     "sv_ai": [
+      0.0,
+      1.3601,
+      0.0,
+      0.0,
+      0.0,
+      1.35802,
+      1.16472,
+      0.50109
+     ],
+     "ai_texts": [
+      "I  ....\n\n,...\n\n\u2715,.\n\n.Does,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "the today what(Have the day the the old time the the the bad the the bad the bad the bad the bad the bad the bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad",
+      "bad\n\n bad",
+      "bad"
+     ]
+    },
+    {
+     "var_sv_ai": 0.032627018642463056,
+     "E_ai_mean": 0.6167408639916224,
+     "epsilon_ai_mean": 0.6497724850972494,
+     "sv_ai": [
+      0.0,
+      0.71788,
+      1.16097,
+      1.03481,
+      1.22605,
+      1.27209,
+      1.22839,
+      1.22839
+     ],
+     "ai_texts": [
+      "I  ....\n\n,Think",
+      ",Think",
+      "The",
+      "What",
+      "What _____you strtol",
+      "(empty)",
+      "user",
+      "(empty)"
+     ]
+    },
+    {
+     "var_sv_ai": 0.20678427919959969,
+     "E_ai_mean": 0.5729652455887415,
+     "epsilon_ai_mean": 0.7337979227304459,
+     "sv_ai": [
+      0.0,
+      1.01646,
+      1.15091,
+      1.11014,
+      0.0,
+      1.31323,
+      1.33454,
+      0.50063
+     ],
+     "ai_texts": [
+      "I (Have you,...\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715 ....\n\n\u2715",
+      "....\n\n(Have ?\n\n\u54c1 ....\n\n(Have ....\n\n(Have ????????\n\n\u2715",
+      "????? ????????? ??????\n\n ....\n\n\u2715 ....\n\n(*)( ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ?????",
+      "????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ?????",
+      "????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ????? ?????",
+      "200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "user\n\nuser\n\nuser\n\nuser\n\nuser\n\n/lich user\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser",
+      "user\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser\n\nuser"
+     ]
+    },
+    {
+     "var_sv_ai": 0.1599407157170538,
+     "E_ai_mean": 19.57460942276907,
+     "epsilon_ai_mean": 0.022494256496429443,
+     "sv_ai": [
+      0.0,
+      1.14288,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "=(Have the.\nI  ....\n\nThe\n\n,...\n\nI'm,.\n\nI'm,...\n\nI'm,...\n\nM.I,...\n\nM.,...\n\nM.",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)",
+      "(empty)"
+     ]
+    },
+    {
+     "var_sv_ai": 0.23721326350824787,
+     "E_ai_mean": 19.173057525578823,
+     "epsilon_ai_mean": 0.24860738714536032,
+     "sv_ai": [
+      0.0,
+      0.95457,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.18445
+     ],
+     "ai_texts": [
+      "I  ....\n\nThe\n\nD.",
+      "D.",
+      "D.",
+      "D.",
+      "D.",
+      "D.",
+      "D.",
+      "user"
+     ]
+    },
+    {
+     "var_sv_ai": 0.25864145885098544,
+     "E_ai_mean": 4.716819729690358,
+     "epsilon_ai_mean": 0.22045782208442688,
+     "sv_ai": [
+      0.0,
+      0.06918,
+      1.3883,
+      1.32384,
+      0.80804,
+      0.1562,
+      0.28679,
+      0.97015
+     ],
+     "ai_texts": [
+      "I  ....\n\n,...\n\n\u2715,.\n\n,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...",
+      ",...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715",
+      "(empty)",
+      "the the the the the the the the the the the the the the the the the the the the th\u0e31(Have the the the the the the the the the ...\"\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...",
+      "the the the ...\"\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...",
+      "the the ...\"\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715",
+      "the the ...\n\n\n\n the the the ...\"\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715",
+      "The the the the the the the the the the the the the the the the the the the the the the the the the the the the ...\n\n\u8bc4\u4ef7 the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the ...\"\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715,...\n\n\u2715"
+     ]
+    }
+   ],
+   "sec": 1376.1
+  },
+  {
+   "cut": "F_python",
+   "alpha": 0.3,
+   "dialogs": [
+    {
+     "var_sv_ai": 0.12007801408839239,
+     "E_ai_mean": 2.328003050606773,
+     "epsilon_ai_mean": 0.18674886226654053,
+     "sv_ai": [
+      0.0,
+      0.55517,
+      0.16268,
+      0.97794,
+      0.70326,
+      0.10006,
+      0.10006,
+      0.0
+     ],
+     "ai_texts": [
+      "I'my'my'my'my'my'my'my'my'my'my'my'my'my'my'my'my'my\u0e31\n'Thing't't'h't't't't't't't't't't't't't't't't't't't't't't't't't't't ()->'I'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm",
+      "I'm'm'I'm'm'm'm'm'm'm'm'm're'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm",
+      "It'sa'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm",
+      "To explain this to 't'he', 't'he'do', 't'he'd,', 't'he'does:',\n'Mean:'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean",
+      "'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'M",
+      "Mean\nMean\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'M",
+      "'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'M",
+      "'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'Mean'\n'M"
+     ]
+    },
+    {
+     "var_sv_ai": 0.057170956595898326,
+     "E_ai_mean": 50.20126344696337,
+     "epsilon_ai_mean": 0.008953869342803955,
+     "sv_ai": [
+      0.0,
+      0.6833,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "I'mt tell you 't tell me 'm.'",
+      "I'mt tell y t m '.",
+      "I'mt tell y t m'.",
+      "I'mt tell y t m'.",
+      "I'mt tell y t m'.",
+      "I'mt tell y t m'.",
+      "I'mt tell y t m'.",
+      "I'mt tell y t m'."
+     ]
+    },
+    {
+     "var_sv_ai": 0.2367295075420921,
+     "E_ai_mean": 15.080032915017076,
+     "epsilon_ai_mean": 0.031395912170410156,
+     "sv_ai": [
+      0.0,
+      0.13053,
+      0.28592,
+      0.28234,
+      1.23202,
+      1.22085,
+      0.14226,
+      0.0
+     ],
+     "ai_texts": [
+      "I'my'my'my'my'my'my'my're'm'y't'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm",
+      "I'my'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm",
+      "Sure,...\n\n\n\nI'my'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y",
+      "'I'my'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm",
+      "It's!\n\n\n\nI-",
+      "It's:\n\n\n\nI'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y",
+      "I'm:y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm",
+      "I'm:y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm'y'm"
+     ]
+    },
+    {
+     "var_sv_ai": 0.20324924478674933,
+     "E_ai_mean": 13.09369101234431,
+     "epsilon_ai_mean": 0.0628860592842102,
+     "sv_ai": [
+      0.0,
+      1.28736,
+      0.0191,
+      0.0,
+      0.0,
+      0.01363,
+      0.01363,
+      0.48944
+     ],
+     "ai_texts": [
+      "I'mounte t'emtly'\nmnter t'emmtt mnty t'emntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmntmnt",
+      "a\na$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a",
+      "a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a",
+      "a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a",
+      "a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a",
+      "a $a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a",
+      "a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a",
+      "a$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$"
+     ]
+    },
+    {
+     "var_sv_ai": 0.2656841896361876,
+     "E_ai_mean": 1.819506149627804,
+     "epsilon_ai_mean": 0.24960420529047647,
+     "sv_ai": [
+      0.0,
+      1.22648,
+      1.22648,
+      0.0,
+      0.0,
+      0.72853,
+      0.43667,
+      0.0
+     ],
+     "ai_texts": [
+      "I'me tell you 't tell me 'm tell him 'h'.",
+      "It's interesting.'",
+      "I'me tell you 't tell me 'm tell him 'h'.",
+      "I'me tell you 't tell me 'm tell him 'h'.",
+      "I'me tell you 't tell me 'm tell him 'h'.",
+      "I'me tell you 't tell me 'm t lie him 'h'.\nuser\nI'me tell you 't lie me 'm lie him 'h'.",
+      "I'me tell you 't lie me 'm lie him 'h'.",
+      "I'me tell you 't lie me 'm lie him 'h'."
+     ]
+    },
+    {
+     "var_sv_ai": 0.2322290029727117,
+     "E_ai_mean": 2.0587077352187255,
+     "epsilon_ai_mean": 0.44451238711675006,
+     "sv_ai": [
+      0.0,
+      1.1053,
+      1.1441,
+      0.16944,
+      1.17514,
+      0.75152,
+      0.0,
+      1.28313
+     ],
+     "ai_texts": [
+      "I'my'my'my'my'my'my'my're'm'y't'I'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm",
+      "It'sh'is'\n'This'hashr'ha'thr'htr'r'thr'r'thr'r'thr'.",
+      "Certainly,...\n\nI'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm",
+      "Sure,...\n\nI'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm",
+      "It's...\n\n\n\nIt's...\n\nIt's ....\n\nIt's...",
+      "It's...",
+      "It's...",
+      "I'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm'm"
+     ]
+    },
+    {
+     "var_sv_ai": 0.042329615663058415,
+     "E_ai_mean": 28.283482739550056,
+     "epsilon_ai_mean": 0.023409585158030193,
+     "sv_ai": [
+      0.0,
+      0.60878,
+      0.34305,
+      0.07288,
+      0.0,
+      0.0,
+      0.29925,
+      0.29925
+     ],
+     "ai_texts": [
+      "I'mt tell me about cats'.",
+      "I'mt(Have!',i'mt tell me about cats.', i'mt tell me about cats.'",
+      "I'mt tell me about cats.', i'mt tell me about cats.'\n.",
+      "I'mt tell me about cats.', i'mt tell me about cats.',",
+      "I'mt tell me about cats.', i'mt tell me about cats.',",
+      "I'mt tell me about cats.', i'mt tell me about cats.',",
+      "I'mt tell me about cats.', i'mtell me about cats.',",
+      "I'mt tell me about cats.', i'mt tell me about cats.',"
+     ]
+    },
+    {
+     "var_sv_ai": 0.23547107191905317,
+     "E_ai_mean": 3.9066305392170726,
+     "epsilon_ai_mean": 0.13018484910329184,
+     "sv_ai": [
+      0.0,
+      1.20445,
+      1.34449,
+      0.52282,
+      0.0,
+      0.0,
+      0.5632,
+      0.5632
+     ],
+     "ai_texts": [
+      "I'mt't(Have'\nI'mt'\nI'mt'\nI\u0e31\ufffdt'I'mt'\nI ()->a't'M:'\nI'm)t;'\nI- \"'.$'m';",
+      "A:",
+      "Tack...'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt",
+      "t'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'",
+      "t'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'",
+      "t'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'",
+      "t'\nt'\nt(Android.)\n\n\n\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt",
+      "t'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'\nt'"
+     ]
+    },
+    {
+     "var_sv_ai": 0.012928028468062434,
+     "E_ai_mean": 1.3977964694791802,
+     "epsilon_ai_mean": 0.33396102984746295,
+     "sv_ai": [
+      0.0,
+      1.17178,
+      0.92496,
+      1.19315,
+      1.15692,
+      0.99189,
+      1.23707,
+      1.23707
+     ],
+     "ai_texts": [
+      "I'meatbuttertlytlytlytlytlytlytlytlytlytlytlytlytlytlytlyt strtollytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytly",
+      "I'mean tyllytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytly",
+      "I'meantlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlyt",
+      "I'meanlytlytlytlytlytlytlyt\u0e31\ufffdy ()->tlytlytlytlytlyt(Have)",
+      "I'mean.lymetymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymlty",
+      "I'meanlymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymlty",
+      "I'meanlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlyt-lytiflytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytlytly",
+      "I'meanlymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymltymlty"
+     ]
+    },
+    {
+     "var_sv_ai": 0.01176609739080839,
+     "E_ai_mean": 0.8670782715971544,
+     "epsilon_ai_mean": 0.5259679357210795,
+     "sv_ai": [
+      0.0,
+      0.62821,
+      0.87818,
+      0.70305,
+      0.76159,
+      0.56953,
+      0.56756,
+      0.5851
+     ],
+     "ai_texts": [
+      "I'moon is a moon, and I'ma tiney.",
+      "I'moon is a moon, and I'mtiney tineyeyyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyey",
+      "Sure,.\n\nI'moon ....\n\nI'moon ....\n\nI'moon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon(Have...)\n\nI'm ....\n\nMorn ....",
+      "I'moon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI.)\n\n\n\nI strtol ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI \"'.$ ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....\n\nI'oon ....",
+      "I'moon ....\n\nI (::\n\nI'm ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M.... ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M",
+      ",...\n\n\n\nI'm ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M",
+      "I'm ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I ....\n\n'I",
+      ",...\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M ....\n\n'M"
+     ]
+    }
+   ],
+   "sec": 2863.8
+  },
+  {
+   "cut": "F_python",
+   "alpha": 0.6,
+   "dialogs": [
+    {
+     "var_sv_ai": 0.048653388345082246,
+     "E_ai_mean": 58.96151683416907,
+     "epsilon_ai_mean": 0.007672607898712158,
+     "sv_ai": [
+      0.0,
+      0.63035,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "a =  &) & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &",
+      "& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &",
+      "& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &",
+      "& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &",
+      "& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &",
+      "& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &",
+      "& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &",
+      "& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &"
+     ]
+    },
+    {
+     "var_sv_ai": 0.13962032193975582,
+     "E_ai_mean": 33.336130649295846,
+     "epsilon_ai_mean": 0.10194055239359538,
+     "sv_ai": [
+      0.0,
+      0.69373,
+      0.0,
+      0.0164,
+      0.0,
+      0.0,
+      0.7883,
+      0.7883
+     ],
+     "ai_texts": [
+      "a\uff0c \uff0c , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,",
+      ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,",
+      ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,",
+      ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,",
+      ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,",
+      ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,",
+      "(Have) , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,",
+      ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+     ]
+    },
+    {
+     "var_sv_ai": 0.11491912394237473,
+     "E_ai_mean": 4.097938239979523,
+     "epsilon_ai_mean": 0.11538147926330566,
+     "sv_ai": [
+      0.0,
+      0.66646,
+      0.63937,
+      0.79992,
+      0.07938,
+      0.02074,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "a -a -a ()-> - -a,...\n\na\u54c1(Have ...) ....\n\n...\n\nA () ....\n\n.....\n\n,...\n\na, () ....\n\n(Have,...\n\n,...\n\n'T,...\n\n...',...\n\n,...\n\n,...\n\n(Have strtol,...\n\n....\n\n,...\n\n,...\n\n'.\n\n,...\n\n.',,...\n\n.',',...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n \"'.$/stretch...',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',',\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',,...\n\n.',",
+      ".',,...\n\n.', ...\"\n\n.', ...\"\n\n.', ...\"\n\n.', ...\"\n\n.', ...\"\n\n strtol.', ...\"\n\n.', ...\"\n\n.', ...\"\n\n.', ...\"\n\n(Have ...\"\n\n(Have.\"), ...\"\n\n \".$_.\", ...\"\n\n.', ...\"\n\n.', ...\"\n\n...\", ...\"\n\n.', ...\"\n\n.', ...\"\n\n.', ...\"\n\n.', ...\"\n\n.\"; ...\"\n\n\u203c.\\\" ...\"\n\n.\", ...\"\n\n \".$_.\", ...\"\n\n ?, ...\"\n\n _______, ...\"\n\n =\", ...\"\n\n ...\"\n\",\n\n.\"\n\n.\", ...\"\n\n.', ...\"\n\n.', ...\"\n\n \".$_.\", ...\"\n\n.', ...\"\n\n(Have ...\"\n\n(Have(Have ...\"\n\n.', ...\"\n\n strtol.\", ...\"\n\nWISE ...\"\n\n.', ...\"\n\n(Have ...\"\n...\"\n\n.', ...\"\n\n.', ...\"\n\n.', ...\"\n\n.', ...\"\n\n(Have ?,",
+      "...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n(SS...)\n\n \".$_.\", ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n ...\"\n\n.', ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n.', ...\"\n\n.\", ...\"\n\n(Have(Have(Have ...\"\n\n ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n ...\"\n\n.\", ...\"\n\n(Have ...\"\n\n.', ...\"\n\n ...\"\n\n \".$_ ...\"\n\n \".$_ ...\"\n\n \".$_ ...\"\n\n ...\"\n\n.', ...\"\n\n.', ...\"\n\n(Have ...\"\n\n(Have ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n.', ...\"\n\n.\", ...\"\n\n.', ...\"\n\n ...\"\n...\",\n ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n.', ...\"\n\n.', ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n.', ...\"\n\n.', ...\"",
+      "...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n.\", ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n.\", ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n.\", ...\"\n\n ...\"\n\n.\", ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n...\", ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n.\", ...\"\n\n.\", ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n.\", ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"",
+      "...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n.\",\" ...\"\n\n\".\" ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"",
+      "...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"",
+      "...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"",
+      "...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\"\n\n ...\""
+     ]
+    },
+    {
+     "var_sv_ai": 0.17311909117179747,
+     "E_ai_mean": 9.009799445704028,
+     "epsilon_ai_mean": 0.04532653093338013,
+     "sv_ai": [
+      0.0,
+      0.97625,
+      0.75611,
+      0.75611,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "t most\na\na\uff0ct\u0e31\na t ....\n\na,...\n\n...\n\na\u54c1(Have,...\n\n,...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n......\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n......\"\n\n...\"\n\n......\"...\"\n\n... ...\"\n\n...\n\n......\"\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n..."
+     ]
+    },
+    {
+     "var_sv_ai": 0.2570780227958862,
+     "E_ai_mean": 5.905960819179484,
+     "epsilon_ai_mean": 0.07063478231430054,
+     "sv_ai": [
+      0.0,
+      1.11962,
+      1.12508,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "a tifult -a -a -a -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,",
+      "t...\nt...t...t...t ...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...t...",
+      "...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n......\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...",
+      "...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n...\n\n..."
+     ]
+    },
+    {
+     "var_sv_ai": 0.11621699544055084,
+     "E_ai_mean": 4.301048828740921,
+     "epsilon_ai_mean": 0.12483354409535725,
+     "sv_ai": [
+      0.0,
+      1.15121,
+      0.77162,
+      0.12715,
+      0.19307,
+      0.46005,
+      0.28276,
+      0.29939
+     ],
+     "ai_texts": [
+      "a -a -a ()-> -a = - - - - - - -(Have) (::) - - -(SS-) (2-(LL) - - - - -,ID,...\n\na) ....\n\n- - ,- ....\n\nstaking -, - - - ....\n\n,...\n\n...\n\n\n\n,...\n\n-\u203c,...\n\n,...\n\n-.,...\n\n-...\n\n- - ,,...\n\n-/INFO,...\n\n'-,...\n\n,...\n\n -...\n\n- ,-,...\n\n,...\n\n - - -,...\n\n,...\n\n,...\n\n,...\n\n-...\n\n,...\n\n,...\n\n,...\n\n,...\n\n - - \"'.$(Android strtol,...\n\n,...\n\n,...\n\n,...\n\n,...",
+      "- ...\n\n-(Have ...\"\n\n,...\n\n,...\n\n -...\n\n-(SS...)\n\n,...\n\n -...\n\n-,...\n\n,...\n\n,...\n\n -...\n\n-,...\n\n,...\n\n,...\n\n,...\n\n-...\n\n,...\n\n,...\n\n,...\n\n,...\n\n-...\n\n,...\n\n,...\n\n,...\n\n,...\n\n-...\n\n- - ,-,...\n\n,...\n\n-.....\n\n,...\n\n,...\n\n,...\n\n,...\n\n- \u2013\n\n,...\n\n,...\n\n,...\n\n,...\n\n-,...\n\n- -!!!!\n\n,...\n\n,\n\n-...\n\n,...\n\n,...\n\n,...\n\n,...\n\n- -\n\n##,...\n\n,...\n\n,...\n\n...,\n\n- ...\n\n,...\n\n,...\n\n....\n\n...\n\n...\n\n,...\n\n,...\n\n,...\n\n...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n...\n\n#\n\n \".$_,...",
+      ",...\n\n...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n...\n\n...\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n',\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...",
+      "...\n\n,\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,\n\n...\n\n,...\n\n,...\n\n,\n\n...\n\n,\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n,\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n,\n\n,...\n\n,...\n\n,...\n\n,...",
+      ",...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n',\n\n,...\n\n',\n\n,...\n\n,\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n,\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n,\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,\n\n,\n\n,\n\n,...\n\n,...\n\n\",\n\n',\n\n,\n\n,\n\n,\n\n,...\n\n,...",
+      "...\n\n...\n\n,...\n\n,...\n\n,...\n\n...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n\n\n,\n\n...\n\n...\n\n,...\n\n,...\n\n,\n\n...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,\n\n...\n\n,...\n\n,...\n\n,\n\n,\n\n,\n\n##,...\n\n,...\n\n,...\n\n,\n\n##,...\n\n',\n\n,...\n\n,...\n\n,\n\n##,\n\n,...\n\n,...\n\n,...\n\n,...\n\n##,...\n\n##,...\n\n,...\n\n,...\n\n##...\n\n1,...\n\n,...\n\n,...\n\n##,\n\n##,...\n\n,...\n\n,...\n\n,...\n\n##...\n\n',\n\n##,...\n\n,...\n\n##,...\n\n##,...\n\n,...\n\n,...\n\n##,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...",
+      ",...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,\n\n...\n\n,\n\n...\n\n,...\n\n,...\n\n,...\n\n,\n\n##,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n,...\n\n,...\n\n,...\n\n,\n\n##...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,\n\n##,\n\n,...\n\n,...\n\n,...\n\n,\n\n##...\n\n,...\n\n,...\n\n,...\n\n##,\n\n##...\n\n,...\n\n,...\n\n\n\n...\n\n##...\n\n#,...\n\n## ...",
+      "...\n\n##...\n\n,...\n\n,...\n\n,...\n\n##...\n\n##,...\n\n,...\n\n,...\n\n,...\n\n##,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n##\n\n,...\n\n,...\n\n,...\n\n##...\n\n##,...\n\n,...\n\n,...\n\n##...\n\n##,...\n\n,...\n\n,...\n\n##...\n\n##,...\n\n,...\n\n,...\n\n,...\n\n##...\n\n##,...\n\n,...\n\n,...\n\n##...\n\n##,...\n\n,...\n\n,...\n\n##,...\n\n##,...\n\n,...\n\n,...\n\n,...\n\n##,...\n\n##,...\n\n,...\n\n,...\n\n##,...\n\n,...\n\n,...\n\n,...\n\n,...\n\n##,...\n\n##,...\n\n,...\n\n,...\n\n##...\n\n##,...\n\n,...\n\n,...\n\n,...\n\n##,...\n\n##,...\n\n,...\n\n##...\n\n##...\n\n##,...\n\n##"
+     ]
+    },
+    {
+     "var_sv_ai": 0.21000828967712068,
+     "E_ai_mean": 8.04696207843409,
+     "epsilon_ai_mean": 0.052080392837524414,
+     "sv_ai": [
+      0.0,
+      0.89439,
+      1.10859,
+      1.10727,
+      0.0,
+      0.29819,
+      0.29819,
+      0.0
+     ],
+     "ai_texts": [
+      "a, , . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "\" .\"\n\" \"\n \" .\"\n \" .\"\n \" .\"\n\" .\"\n \" .\"\n\" .\"\n \" .\"\n\" . .\"\n \" .\"\n\" . .\"\n\" . .\"\n\" .\"\n\" . .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\" .\"\n\"",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\"\n \" . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+     ]
+    },
+    {
+     "var_sv_ai": 0.15521185478354482,
+     "E_ai_mean": 4.852528562356257,
+     "epsilon_ai_mean": 0.09882454077402751,
+     "sv_ai": [
+      0.0,
+      1.16953,
+      1.00974,
+      0.93329,
+      0.43684,
+      0.25519,
+      0.12786,
+      0.26131
+     ],
+     "ai_texts": [
+      "a -a, -(Have\u203c- - - - - - - -(SS) - - - - - - -,ID - - - - - - - - -(LL - -, - - - - - - -: - - - - - - - - -<stdlib - ,- - - - - ....\n\n ,- - -, - - - - - - - -/INFO(Android), ( - - ))) ....\n\n...)\n\n,...\n\n - -, - -, )\" ....\n\n - ....\n\n - ....\n\n -, -, - -, - -(Have:",
+      "- ....\n\n- ....\n\n,\n\n\n\n - - - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -, -\n - -\n - -\n - -\n - -\n - -\n\n - -\n - -\n - -, -\n - - -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,",
+      "- - - - -\n - - - - - - - - - - - - - - - - - - - - - -(Have - - - - - - - - - - - - - - - - - -, - - - -, -, -, -, - - -(SS - !\" -, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n - -, -, -, -, -, -, - -, -",
+      "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -, -, - -, - -, -, -, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, - - - -",
+      "- - - - - - - - - - - - - - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - - - -\n - - - - - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - -\n - - -",
+      "- - - - - -\n - -, -, -, -, -, -, -, -, - - -, -, -, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n - - - - - - -\n - - - - - - - - - - - -\n - -\n - -\n - -\n - -\n - - - - - - - - - - - - - - - - -",
+      "- -\n - -\n - -, -, -, -, -, -, -, -, -, -, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n - -\n - - - - ....\n\n - - - - - - - - - - - -\n - - - - - - -\n - - - - - - - - - - - - - - - - - - - - - - -",
+      "- ...\n\n - ...\n - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n - - -\n - -\n - -\n - - - - -\n - - - - - - -\n - - - - - -\n - - - - - - - - - - - - - - - - - - -\n - - -\n - -\n - -\n - -"
+     ]
+    },
+    {
+     "var_sv_ai": 0.03697833974810845,
+     "E_ai_mean": 1.5903937783017081,
+     "epsilon_ai_mean": 0.3222276568412781,
+     "sv_ai": [
+      0.0,
+      1.01433,
+      1.23733,
+      1.135,
+      0.64298,
+      1.10945,
+      1.00125,
+      0.78691
+     ],
+     "ai_texts": [
+      "a -a -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,",
+      "a = , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,",
+      "- - - - - - - - - - - - - - - - - - - - - - -(Have -(SS) -<stdlib\n strtol - - - -/stretch -,ID -(LLB ()->- ?, - ,- -(LED(Android), -/INFO, - ?, -WISE (1) - ) - - - - -- -(Have) - - &, -,.\n\n - - - - - - - - - -(Have -\u0e31 - - - - \"'.$ - - - - -",
+      "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",
+      "- - - - -(Have) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",
+      "- \u2013 -, - -, - -,/lic (LED(SS) - -,(Have,ID - -, - -, - -, - -, - -, - -, - -, - -, - -, - -,(LL), - -, - -, - - - -, - -, - - - - - - - -: - -, - -, - -, - -,.ReadAsStringAsync - -, - -, - -, - -, - -, - -, - -, - -, - - -, - -, - - - - - - - - - - - -, -_DD",
+      "- - -, - - -, -(LEDARY - -, - - -, - - - - - -, -(LL) - -, - - - - - - - - - - - - - - - - - - - -, - -, - -, - -, -(Have) - -, - -, - -, - -, - -, - -, - -, - - - - - - - - -, -/INFO - - - - - - -, - - - - - - - - - - - - -, -",
+      "- - - - - - - - - - - - - - - - - -, - -, - - -, - -, - - - - - -, - -, - - -, - -, - -, - -, - -, - -, - -, -(Have - - - - - - - - - - - - -, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -, - - - - - -"
+     ]
+    },
+    {
+     "var_sv_ai": 0.0226081546287599,
+     "E_ai_mean": 1.7276631107943878,
+     "epsilon_ai_mean": 0.2696983218193054,
+     "sv_ai": [
+      0.0,
+      1.0029,
+      0.74354,
+      1.00251,
+      0.83901,
+      1.03029,
+      0.84764,
+      0.58701
+     ],
+     "ai_texts": [
+      "a -a ()-> - - - - - - - - - - -(Have) - - - - - -, -, -, - \"'.$ - - - - - -(LL- - ,- -, - - - - (:: - - - - - - - - - -, -, -, -, -, - - -, -, -, -, -<stdlib - -, -, -, - - -: - - - - - - - - - - - - - - - - - - -,ID -/INFO - - - -, -(SS",
+      "- -,ID: - - - -/lic-(LL- - - - - - - - - - - - - - - - - &, - - - - - - - - - -,.\n\n - -, - - - - -\n\n- -, - -, - -, -(Have) - -, - -, - - - - - - -- - - buttonText -<stdlib - - - -, -, - -,, - - -/INFO - -, -(SS). -(LED- - -/stretch - -, -, -",
+      "- - - - - - - - - - - - - -(Have - - - - - - - - - -,ID - -, - - - -(LL- - - - - - - - - - - -(LED(SS)- - -l - -, - - - - - - - - - -_DD - -, - - - - -, -<stdlib - - - - - - - - - -/INFO - - - - - - - - - - - - - - - -",
+      "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",
+      "- - - - -(Have\u0e31 - - - - - - - - - - - - - - - - - \u2013 - -, - - - - - -, - -, - - -, - -, - -, - -, - -, - - - - - - - - - - - - - - - - -,ID - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",
+      "- - - - - -, -(LED- - - - - - - - - - - - - - - - - - - - - - - - -, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -, - -, - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",
+      "- - - - - -, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",
+      "- - - - - -(Have - - - - - - - - - - - - -, - - - - - - - - - - - -, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -, - - - - - - - - - - - - - - - - - - - - - - - - -, - - - - - -"
+     ]
+    }
+   ],
+   "sec": 3686.8
+  },
+  {
+   "cut": "A_eiffel",
+   "alpha": 0.3,
+   "dialogs": [
+    {
+     "var_sv_ai": 0.22449775898169314,
+     "E_ai_mean": 0.41694119333212204,
+     "epsilon_ai_mean": 0.9439185593898097,
+     "sv_ai": [
+      0.0,
+      0.52482,
+      1.00713,
+      1.25122,
+      1.33572,
+      1.37318,
+      1.20829,
+      0.0
+     ],
+     "ai_texts": [
+      "Tell me about why water boils at one hundred degrees Celsius at sea level.",
+      "The case for water boils at one hundred degrees Celsius at sea level.",
+      "Sure, I can provide an example of how to boil water in a certain place.",
+      "I'm sorry, but I don't have any information about your request.",
+      "It's not true.",
+      "How do you know what it is the best to be?",
+      "What is the most important thing about this?",
+      "What is the most important thing about this?"
+     ]
+    },
+    {
+     "var_sv_ai": 0.010774801083440724,
+     "E_ai_mean": 2.8662378725110393,
+     "epsilon_ai_mean": 0.2259860634803772,
+     "sv_ai": [
+      0.0,
+      0.70737,
+      0.66636,
+      0.65089,
+      0.73236,
+      0.62159,
+      0.56293,
+      0.91475
+     ],
+     "ai_texts": [
+      "Tell me about Tokyo as the capital of Japan.",
+      "The case is that the capital of Japan.",
+      "Yes, I can provide an example. What is the capital of Japan?",
+      "I'm sorry, but I don't know what you mean by \"how is the capital of Japan\". Can you tell me more about it?",
+      "It's a common misunderstanding about the capital of Japan. It's often mistaken for the capital of Japan. The capital of Japan is located in Tokyo, Japan. This is not the capital of Japan.",
+      "The capital of Japan is Tokyo, which is located in Japan. How is the capital of Japan?",
+      "The capital of Japan is Tokyo, and the capital of Japan is Kyoto. These are not the capital of Japan.",
+      "Sure, we have been talking about Tokyo and Kyoto."
+     ]
+    },
+    {
+     "var_sv_ai": 0.08436054236473613,
+     "E_ai_mean": 0.5411740050732607,
+     "epsilon_ai_mean": 0.6850919922192892,
+     "sv_ai": [
+      0.0,
+      0.67889,
+      1.36614,
+      1.16647,
+      1.27911,
+      1.22047,
+      0.61596,
+      1.33921
+     ],
+     "ai_texts": [
+      "Tell me about how photosynthesis converts sunlight into chemical energy.",
+      "The light in the sun, and the sun, convert it into chemical energy. The sun is converted into chemical energy by the sun.",
+      "Yes, I can provide an example of how to do something.",
+      "I'm sorry, but I don't able to help you with that.",
+      "It's not clear what the truth is.",
+      "What is the most important thing for you to know?",
+      "What is the most important thing for you to know?<stdlib>",
+      "I am sorry, but I don't be able to help you with that."
+     ]
+    },
+    {
+     "var_sv_ai": 0.10361530435336362,
+     "E_ai_mean": 2.7325313830426077,
+     "epsilon_ai_mean": 0.17113840579986572,
+     "sv_ai": [
+      0.0,
+      0.80552,
+      0.7188,
+      0.61704,
+      0.48479,
+      0.76789,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "Tell me about Mount Everest as the highest mountain on Earth.",
+      "The most important mountain in the world, the highest mountain on earth. The highest mountain on Earth.",
+      "The highest mountain on Earth is Mount Everest. It's highest point is 8,00000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "Mount Everest is the highest mountain on Earth.",
+      "It is a popular belief that Mount Everest is the highest mountain on Earth.",
+      "What is the highest mountain on earth?",
+      "What is the highest mountain on Earth?",
+      "What is the highest mountain on Earth?"
+     ]
+    },
+    {
+     "var_sv_ai": 0.03806615309169205,
+     "E_ai_mean": 1.0724708873881896,
+     "epsilon_ai_mean": 0.41205060482025146,
+     "sv_ai": [
+      0.0,
+      1.01419,
+      1.18069,
+      1.26482,
+      1.08894,
+      1.094,
+      0.70673,
+      0.75068
+     ],
+     "ai_texts": [
+      "Tell me about Shakespeare and his famous plays.",
+      "The case of Shakespeare, which is a very important and significant in the world \"'.$. The story of Shakespeare's works, which is a very interesting and significant in the world.');",
+      "What/lices, which is a.)",
+      "The story of Shakespeare's life, which is a, which is a very interesting and significant in the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the",
+      "The common misunderstanding about Shakespeare's work.",
+      "The story of Shakespeare's life, which is a very interesting and significant in the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the",
+      "The advice on what is a very important and significant in the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the",
+      "The main topic of Shakespeare's life, which is a very important and significant in the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the can"
+     ]
+    },
+    {
+     "var_sv_ai": 0.14372627427829185,
+     "E_ai_mean": 0.4283703099810916,
+     "epsilon_ai_mean": 0.7892659604549408,
+     "sv_ai": [
+      0.0,
+      0.46611,
+      1.38018,
+      1.30812,
+      1.32751,
+      1.33727,
+      0.48267,
+      1.14761
+     ],
+     "ai_texts": [
+      "Tell me about how the heart pumps blood through the body.",
+      "The heart pumps blood through the body to tell me about how the heart pumps blood through the body.",
+      "Sure, I can provide an example of a concrete everyday.",
+      "I'm sorry, but I don't sure what you want to say about this.",
+      "It's true that the heart pumps blood through the body.",
+      "It seems to be a common misunderstanding.",
+      "It sounds like a common misunderstanding.",
+      "I'm sorry, but I don't understand what you want to say about this."
+     ]
+    },
+    {
+     "var_sv_ai": 0.3492080011269865,
+     "E_ai_mean": 0.4877366223121589,
+     "epsilon_ai_mean": 0.8018264323472977,
+     "sv_ai": [
+      0.0,
+      0.65939,
+      1.37127,
+      1.21461,
+      1.49532,
+      1.2269,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "Tell me about cats as popular household pets.",
+      "The case of the cat as popular household pets is that there are many people who have cats as popular household pets. The cat as popular household pets.",
+      "Sure, I can give you a concrete example.",
+      "I'm sorry, but I don't able to help you with your question.",
+      "It's true that most people like cats as popular household pets. It's true that there are many people who have cats as popular household pets.",
+      "What is the most common misconception about this?",
+      "What is the most common misconception about this?",
+      "What is the most common misconception about this?"
+     ]
+    },
+    {
+     "var_sv_ai": 0.2426992893260677,
+     "E_ai_mean": 6.369267498916073,
+     "epsilon_ai_mean": 0.06740627686182658,
+     "sv_ai": [
+      0.0,
+      0.62083,
+      1.40987,
+      1.35488,
+      0.48137,
+      0.0,
+      0.36647,
+      0.34572
+     ],
+     "ai_texts": [
+      "Tell me about the Pacific as the largest ocean on the planet.",
+      "The Pacific Ocean is the largest ocean on the planet. It's size is 10,000, and it's area is 20. The Pacific Ocean is the largest ocean on the planet. It's size.)\n\n\n\n The Pacific Ocean is the largest ocean on the planet. It's size/stretching is 10,00, and its area is 20. The Pacific Ocean is the largest ocean on the planet. It's area is 10,00",
+      "Surely, I can tell you a concrete everyday example?",
+      "The Pacific Ocean is the largest ocean on the planet. It's size.');",
+      "The Pacific Ocean is the largest ocean on the planet. It's size is 10,00, and its area is 20.",
+      "The Pacific Ocean is the largest ocean on the planet. It's size is 10,00, and its area is 20.",
+      "The Pacific Ocean is the largest ocean on the planet. It's size,.",
+      "The Pacific Ocean is the largest ocean on the planet. It's size is 10, and its area is 10."
+     ]
+    },
+    {
+     "var_sv_ai": 0.08255102167505837,
+     "E_ai_mean": 0.528884105205835,
+     "epsilon_ai_mean": 0.8053916270534197,
+     "sv_ai": [
+      0.0,
+      0.52301,
+      1.37777,
+      1.39107,
+      1.37958,
+      1.18408,
+      1.30797,
+      1.28741
+     ],
+     "ai_texts": [
+      "Tell me about how bread is made from flour, water, and yeast.",
+      "The case of making bread is from flour, water, and yeast.",
+      "Yes, I can provide an example for you to see.",
+      "Tell me about how bread is made from flour, water, and yeast.",
+      "I'm not sure what you mean.",
+      "It's a good question!",
+      "How do you know about this?",
+      "I am sorry but i don't understand your question."
+     ]
+    },
+    {
+     "var_sv_ai": 0.034406938457188084,
+     "E_ai_mean": 131.63966168333602,
+     "epsilon_ai_mean": 0.00345766544342041,
+     "sv_ai": [
+      0.0,
+      0.0,
+      0.0,
+      0.41082,
+      0.41038,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      "200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+     ]
+    }
+   ],
+   "sec": 429.4
+  },
+  {
+   "cut": "A_eiffel",
+   "alpha": 0.6,
+   "dialogs": [
+    {
+     "var_sv_ai": 0.07335745751142611,
+     "E_ai_mean": 10.429108774146384,
+     "epsilon_ai_mean": 0.052819410959879555,
+     "sv_ai": [
+      0.0,
+      0.9622,
+      0.37779,
+      0.36847,
+      0.57352,
+      0.57938,
+      0.0,
+      0.37367
+     ],
+     "ai_texts": [
+      "The,.\n. in. the city of the world the city of the world. the world. the world. the world. the world.. the world. The world. the world. The world. The world. The world. the world.. The world. The world. The world. The world.. The world. The world. The world. the world. The world. the world.. The world. the world. the world. the world.. world. the",
+      "The. The. the. the. The. the. The. the. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. the. the. the. the. the. the. the. the. the. the. the. the. the.",
+      ", the.. the... the. the...... the..... the... the... the. the. the. the. the. the. the. the.. the. the. the. the. the. the. the. the. the. the. the.. the. the. the.. the...... the. the. the. the. the. the. the. the",
+      ", the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the",
+      "the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the/lic/ the. the. the. the. the. the. the. the. the. the. the can the. the. the. the. the. the. the the \"'.$ the. the. the.",
+      "the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the.",
+      "the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the.",
+      "the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. if the. the. the. the. the. the. was the..'); the.<stdlib"
+     ]
+    },
+    {
+     "var_sv_ai": 0.1456405864146159,
+     "E_ai_mean": 12.78556035381112,
+     "epsilon_ai_mean": 0.10681545734405518,
+     "sv_ai": [
+      0.0,
+      1.02719,
+      0.08471,
+      0.10303,
+      0.07895,
+      0.0,
+      0.02211,
+      0.73564
+     ],
+     "ai_texts": [
+      ",,,,, and, in,..... The,...  and.. in. and. in....\n\n in the capital of,. It, in the capital of Japan. In the capital of Japan. The capital of the Japanese. The.\n The. The., which, the., in,, the. in, the., the. The. the.,, in,, in, ,,,,,,",
+      ", the. . the. The. The. The. The. The. The. The. The. The. the. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.\n\n. The.. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The",
+      ", the., the. the. the.\n the. the.. the. the. The. the. The. The. the.\n the. the. the. the. the.\n the.. The.\n the. the.\n the. the.\n the. the. the. the. the.\n the. the. the. the. the. the. the. the. the. the. the. the. the.\n the. the.",
+      ",. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.",
+      ". The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The",
+      ". The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The",
+      ". The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.",
+      "The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. \"'.$ The. The.<stdlib. The. The..'); The.(Have) The./stretching..)\n\n\n\n the. The.<algorithm."
+     ]
+    },
+    {
+     "var_sv_ai": 0.0897555458287879,
+     "E_ai_mean": 17.30298297570688,
+     "epsilon_ai_mean": 0.03969693183898926,
+     "sv_ai": [
+      0.0,
+      0.39888,
+      0.83466,
+      0.92979,
+      0.41377,
+      0.10287,
+      0.10287,
+      0.37783
+     ],
+     "ai_texts": [
+      "The, the., the. the. the.\n, the in, the. the in, the. the. the. the. the.. the. the. the.. the. the. the. the. the.. the. the. the. the. the. the. the. the. the. the. the., the., the. the. the., and the. the.., the., the. the.. the.",
+      ". The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. the. The. The. The. The. The. The. The. The . the. The. is. the the. is. is. is. is. the.. (. the. the. the. is. the. is.. the. the.\n the.\n the. The. The.",
+      ".,,,...,. the.. the. the... the... the. the. the...... the. the.. the.... the.\n.. the., the.... the...... the. the... the.,.........,,,,, in,,,, in,, ,,., the,",
+      ". \uff0e\n. The. , the. The. the. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.\n\n the. The. The.. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.",
+      ". The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The",
+      ". The. The. the. The. The. The. The. The. The. the. the. the. The. The. The. the. The. The. The. The. The. The. The.. the. the. the. the. The. The.. the... the. the. the. the. the. the. the.. the. The. the. the. the... the. the. the. the.",
+      ". the. the. the. the. the. The. The. The. The. The. The. the. the. The. The. The. The. The. the. The. The. The. The. The. The. The. The. the. the. The. The. The. The. The. The. The. The. the. The. The. The. The. The. The. The. The. The. The. The. the",
+      "the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the..'); the..)\n\n\n\n the. the. [ a.,.\n\n the. the. the. the. the. the.<stdlib"
+     ]
+    },
+    {
+     "var_sv_ai": 0.1465522961584146,
+     "E_ai_mean": 5.923676544920464,
+     "epsilon_ai_mean": 0.08354659875233968,
+     "sv_ai": [
+      0.0,
+      1.16291,
+      0.90213,
+      0.63443,
+      0.09184,
+      0.0705,
+      0.36844,
+      0.30396
+     ],
+     "ai_texts": [
+      "1,, in.,,.0,, of,,,,,,,,,,,,,\n\n 2,,,,\uff0c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+      ",,\n\n\n\n 1 \u4f5c,,, .\n\n \u4f5c\u7684<stdlib\n\n\n\n\n 10\u5e74\u4e00,\n\n \u4e2d\u56fd, 1\u5e74/ 1 1 10 1 1 1 1 1 1 1 1 111111111111111111111111111111111111111111",
+      "111111is\n\n,.\n\n. , 111112\n\n18\n\n111123 11111111111111111111111111111111\n\n11111111111111111111 ,\n\n11111111+\u54c111111",
+      "111111111 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+      "11111111111111111111111111111111111111111111111111111111111111\n111111111\n111111111111111111111111111",
+      "1111111111111111111111111111111111111111\n11111111111111111111111111111111111111111111111111111111111",
+      ",111, 111111111111111111111111111111111,1111111111111111111111111111111111111111111111111111111111,",
+      "11111111111111111111111111111111111111111111111111111111111111,1111111111111111111111111111111111111"
+     ]
+    },
+    {
+     "var_sv_ai": 0.024033820687138992,
+     "E_ai_mean": 4.69955568015538,
+     "epsilon_ai_mean": 0.15149869521458945,
+     "sv_ai": [
+      0.0,
+      0.89666,
+      0.79239,
+      0.78896,
+      0.50965,
+      0.51044,
+      0.7139,
+      0.48389
+     ],
+     "ai_texts": [
+      ",.\n in the city of,,, the, the,, the,\n\n\n.\n\n\n\n The above,,, in,,, the,,, in, in,, in the, in, in, the,, the, in,, the,, which, in,,, ,., in, the, in, in, the, in, the, in, the, in, in,,, in, in, in, in, in,",
+      ", the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the",
+      "the, the, the, the,,,,  the, the, the,,, the,,, the,, the,,, the, the, the,,, the,,,,,,,,,,,,,,,,,,,,,, the,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+      "the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the,",
+      "the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the,/lic, the, the, the, the,, the [, the,, the the, the,,, in, the, the, the,, the, the, the",
+      "the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the,, the, the, the, the, the, the, the, the, the, the,, the, the, the, the, the,",
+      "the, the, the,, the, the, the,, the, the, the,,,, the,, the,,,, the, the,,,, the,,, the,<stdlib, the, the, the, the, the, the, the, the, the,, the, the, the,,, the,, the, the, the, the, the, the, the,, the, the, the, the,,",
+      "the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the,<stdlib, the, the, the, the, the, the, the, the, the, the, the, the,.'); the,.)\n\n\n\n the,(Have the, the, the, the, the,!.\n\n/stretch,"
+     ]
+    },
+    {
+     "var_sv_ai": 0.07292299138304804,
+     "E_ai_mean": 37.55739835202888,
+     "epsilon_ai_mean": 0.011268556118011475,
+     "sv_ai": [
+      0.0,
+      0.77171,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "ai_texts": [
+      ",.\n, in,.. and................... The.\n\n..... .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+     ]
+    },
+    {
+     "var_sv_ai": 0.05466069998637091,
+     "E_ai_mean": 7.153859070553586,
+     "epsilon_ai_mean": 0.09993662436803182,
+     "sv_ai": [
+      0.0,
+      0.9335,
+      0.28851,
+      0.23389,
+      0.47511,
+      0.68801,
+      0.56061,
+      0.30107
+     ],
+     "ai_texts": [
+      ",\n\n 2 in\n,, the.');.\n,,;\u54c1(Have,,,,,\uff0c,\n,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, .0,,,,,,,,,,, 1,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+      ",,,,,,,,,\n,  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, and,,,,,,,,,,,,,,,,,,,,,,,,,,, , 1,,,,,\n\n,,",
+      ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\u7b49,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+      ",,,,, , , , , ,, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,",
+      ", , , . The , . , . , , . , , , . , . , , , , , , , , , , . , . , , , . . , , , , . , . , , , , , . , , , , , , , . , , , . , . , , , , , , , , . . , , , , , . , , , , , , , , , , , , , , , , , , , ,",
+      "and , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,(,ID , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,",
+      "and , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,",
+      ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+     ]
+    },
+    {
+     "var_sv_ai": 0.30940384469884946,
+     "E_ai_mean": 2.453492058598204,
+     "epsilon_ai_mean": 0.18036975463231406,
+     "sv_ai": [
+      0.0,
+      1.04552,
+      1.24042,
+      0.99434,
+      1.33691,
+      0.0,
+      0.06464,
+      0.09113
+     ],
+     "ai_texts": [
+      ", in,.\n,. of,  and, in. The in.. in. in.\n\n. in. in. in. in. in.. in. in. in. in. in. in. in. in. in., with the.., in the Pacific for the Pacific for the Pacific for the P the Pacific for the Pacific for the Pacific for the Pacific for the Pacific for the Pacific for the Pacific for the Pacific for the Pacific for the Pacific for",
+      ", The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The\n\n The.",
+      ",,,,,..,............................................................................................",
+      ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, so, ,,,,,, ,, in,,,,,,,,, ,",
+      ",, The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.",
+      ",, the. The. the. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.",
+      ", the. The. The. the. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. the",
+      ", the., the. The. The. The. The. The. The. The. The. the. The. The. The. The. The. The. the. The. the., the. The. The. The. The. The. the. The. The. the. The. The. The. The. The. The. The. The. The. the. The. The. the. the. the. the. the. the. the"
+     ]
+    },
+    {
+     "var_sv_ai": 0.07057464193693376,
+     "E_ai_mean": 9.379921397996599,
+     "epsilon_ai_mean": 0.04734009504318237,
+     "sv_ai": [
+      0.0,
+      0.8056,
+      0.45861,
+      0.18504,
+      0.0,
+      0.0,
+      0.16996,
+      0.16996
+     ],
+     "ai_texts": [
+      ",  in,  on, ,.\n,,,.,.,......,,.......,.......,.......... in..... in... The. in. in. in. in. in. in. in. in. in. in. in. in. in. in. in. in. in. in. in.",
+      ". In. It. The. The. The. The. The. The. The. The. . The. The. . The. The. The. . The. . The. The. . The. . The. . The. . The. . . . . The. . . . . The. . . . . The. . The. . The. . . . . The. . . . . The. . . . The. . . . . The.",
+      ".... The. The. The.... The..\n..\n..\n. The. The.\n The. The. The. The.. The. The. The. The. The. The. The. The. The. The The The. The. The The. The. The. The. The.\n The. The. The. The. The. The. The. The. The. The. The. The. The.",
+      ". The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The",
+      ". The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The",
+      ". The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The",
+      ". what. the. the. the. the. the. the. the.. the. the. the. the. the. the. the. the. the.. the.. the. the. the. the. the. the. the. the. the. The. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the.",
+      ". The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. the. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. the. The. The. The. The. The"
+     ]
+    },
+    {
+     "var_sv_ai": 0.06642329459888327,
+     "E_ai_mean": 7.9905465273363845,
+     "epsilon_ai_mean": 0.08015201489130656,
+     "sv_ai": [
+      0.0,
+      0.86465,
+      0.69645,
+      0.717,
+      0.33481,
+      0.2565,
+      0.1015,
+      0.53057
+     ],
+     "ai_texts": [
+      ",, in,.\n, and. The, the, the. the. the. the. The. the. the. the. the. the. the. 2.'); I (*)(,)\n,,,,,,,,,,,,,,,\uff0c,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,, as,,,",
+      "the. The. the. The. The. \"'.$...\n. The.\n.., the. The. The. The. The..)\n\n\n\n The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The... The. The. The. The. The.",
+      "The. The. The. The. The..)\n\n\n\n.\u203c '); The. The.\n The. The. The. The. The. The. The. The. The. The. The. The. The. The.(Have,ID(LED. The. The.)\n\n\n\n. The. The. The. The. It. The. The. The. The.)\n\n\n\n\n The. The, The. The. The.)\n\n\n\n.<stdlibs\u2025 the...... The...",
+      ". The. The. The. The.. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.",
+      "The. The. The. The. The. The. The. The. The. The. The.(Have. The. The. The. The. The.(Have. The. The. The. The. The. The. The. The. The. The. The. The. The world. The. The.. The. The.\n. The. The. The. The. The. The. The. The. A. The. The. The. The.",
+      ". The. The. The. The. The. The. The. The. The. The. the. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.(Have the.",
+      "The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.(Have the. The. The. The. The. The. The. The. The. The. The. The. The. The. The.(Have the. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.",
+      "The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The.(Have.<stdlib. The.(Have.(Have it, the only the only, which, the. The. The. ()-> the./stretching from the one, the"
+     ]
+    }
+   ],
+   "sec": 1019.5
+  }
+ ],
+ "baseline": [
+  {
+   "var_sv_ai": 0.0791760465693473,
+   "E_ai_mean": 1.791633326226367,
+   "epsilon_ai_mean": 0.4909315376232068,
+   "sv_ai": [
+    0.0,
+    0.48013,
+    0.93711,
+    0.68344,
+    0.78454,
+    0.54207,
+    0.74877,
+    1.39185
+   ],
+   "ai_texts": [
+    "Water boils at 100 degrees Celsius at sea level because the temperature of water is directly proportional to its volume, and this relationship is constant regardless of the pressure or temperature of the surroundings.\n\nWhen you boil water in a pot on a stove, it heats up until the water reaches boiling point. The amount of heat that is added to the water increases as the temperature rises, so the rate of increase in temperature is directly proportional to the amount of heat added. This means that when the temperature of",
+    "The reason why water boils at 100 degrees Celsius at sea level is due to the fact that the density of water is very low compared to other substances. When you boil water, the molecules of water begin to move more freely, which causes them to spread out and become larger. As these larger molecules come closer together, they start to form hydrogen bonds with each other, which allows for better heat transfer between the molecules.\n\nThis increased surface area of the water molecules also leads to an increase in",
+    "Sure! Imagine you have a cup of coffee on your desk. When you pour the coffee into the cup, the hot liquid inside the cup starts to expand and rise up into the air. This expansion causes the water molecules in the coffee to move faster and get closer together, leading to a higher temperature than if you were just pouring the coffee directly onto the table.\n\nSimilarly, when you boil water in a pot on a stove, the water molecules are forced to move more freely and reach their maximum thermal",
+    "Imagine you have a small ball of clay on your desk. When you pour the clay into a bowl, the clay starts to expand and rise up into the air. This expansion causes the clay molecules to move faster and get closer together, leading to a higher temperature than if you were just pouring the clay directly onto the table.\n\nSo, when you boil water in a pot on a stove, the water molecules are forced to move more freely and reach their maximum thermal capacity, resulting in a higher temperature than",
+    "There are several misconceptions about how water boils at 100 degrees Celsius at sea level:\n\n1. Water boils at 100 degrees Celsius at sea level: This is not true. Water boils at 100 degrees Celsius at sea level because the density of water is very low compared to other substances. When you boil water in a pot on a stove, the molecules of water begin to move more freely, which causes them to spread out and become larger. As these larger molecules",
+    "The idea that water boils at 100 degrees Celsius at sea level has practical applications in many different areas of daily life. For example:\n\n1. Cooking: When you boil water in a pot on a stove, the water molecules are forced to move more freely and reach their maximum thermal capacity, resulting in a higher temperature than if you were just pouring the water directly onto the table.\n\n2. Heating systems: In homes, water heaters use water to heat up the air around the heating system,",
+    "Following the ideas presented above can help us understand how water behaves under various conditions. For example, we can learn that water boils at 100 degrees Celsius at sea level because the density of water is very low compared to other substances. We can also learn that water boils at 100 degrees Celsius at sea level because the molecules of water begin to move more freely, which causes them to spread out and become larger. Finally, we can learn that water boils at 100 degrees",
+    "I'm sorry, but I cannot summarize the conversation without additional context. Please provide me with the full text of the conversation so that I can summarize it accurately."
+   ]
+  },
+  {
+   "var_sv_ai": 0.029493323040807203,
+   "E_ai_mean": 1.9795826451765688,
+   "epsilon_ai_mean": 0.22872108221054077,
+   "sv_ai": [
+    0.0,
+    1.02931,
+    1.25571,
+    0.92963,
+    0.74155,
+    0.75231,
+    0.86185,
+    0.78034
+   ],
+   "ai_texts": [
+    "Tokyo is the capital city of Japan and is located in the northern part of the country. It is the largest city in Japan, with a population of over 10 million people.\n\nTokyo has a rich history dating back to the Edo period (1603-1867), when it was ruled by the Tokugawa shogunate. The city was founded in 653 AD by Emperor Go-Takata I, who was later succeeded by his son",
+    "The Edo period was a time of great political and cultural development in Japan. During this period, the Japanese government was divided into three branches: the Diet, the Imperial Court, and the military. The Diet was responsible for making laws and decisions, while the Imperial Court was responsible for enforcing them. The military was responsible for maintaining order and protecting the emperor's interests.\nIn addition, during the Edo period, Japan had a strong tradition of art, literature, and music. Many famous artists and",
+    "Sure! One everyday example of Tokyo is the Shibuya Crossing. This crossing is one of the busiest intersections in the world, with millions of vehicles passing through every day. The crossing is known for its chaotic traffic flow, which can be difficult to navigate without proper planning and awareness.\nAnother example is the Tokyo Skytree, which is the tallest building in the world at 333 meters tall. Visitors to the Tokyo Skytree can enjoy stunning views of the city from the observation deck above.\nFinally",
+    "Tokyo is a big city with lots of things to see and do. You can go on a train ride to see some beautiful parks and gardens. You can also visit some museums and art galleries. There are many different types of food to try, too. And if you want to learn more about Japan, you can read books or watch movies about it.",
+    "One common misconception about Tokyo is that it is only a small city with few attractions. In fact, Tokyo is a large city with many interesting places to visit, including the Meiji Shrine, the Tokyo Tower, and the Tokyo National Museum.",
+    "Tokyo is a major center of business and industry, so it attracts many people from all over the world. This means that there are many opportunities for job seekers to find work in Tokyo. Additionally, Tokyo is a major hub for technology and innovation, so there are many companies and startups that have offices here. Finally, Tokyo is a major tourist destination, so there are many opportunities for visitors to experience the city and its culture.",
+    "If you're visiting Tokyo, make sure to take advantage of its many attractions and activities. For example, you might want to check out the Meiji Shrine, which is a UNESCO World Heritage Site and a popular pilgrimage site. Alternatively, you could visit the Tokyo Tower, which offers panoramic views of the city and the surrounding area. If you're interested in technology and innovation, you might want to check out the Tokyo National Museum, which houses exhibits on everything from robotics to space exploration.",
+    "Tokyo is a bustling metropolis with a rich history and diverse culture. It is home to many famous landmarks such as the Meiji Shrine, the Tokyo Tower, and the Tokyo National Museum."
+   ]
+  },
+  {
+   "var_sv_ai": 0.04275514055200854,
+   "E_ai_mean": 1.073378063470781,
+   "epsilon_ai_mean": 0.5192796041568121,
+   "sv_ai": [
+    0.0,
+    0.5436,
+    0.86755,
+    0.95722,
+    1.09256,
+    1.03276,
+    0.91162,
+    1.26414
+   ],
+   "ai_texts": [
+    "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy that can be used to power their growth and metabolism. The process of photosynthesis involves several key steps:\n\n1. Light absorption: Plants absorb light energy from the sun through specialized pigments called chlorophyll in their leaves. This light energy is then converted into chemical energy stored in the form of ATP (adenosine triphosphate) and NADPH (nicotinamide",
+    "The process of photosynthesis is driven by the presence of chlorophyll, which is a green pigment found in the leaves of most plants. Chlorophyll absorbs light energy from the sun and uses it to split water molecules into oxygen and hydrogen ions. These molecules are then released into the atmosphere as water vapor.\n\nIn addition to absorbing light energy, chlorophyll also captures carbon dioxide from the air and stores it in the form of organic compounds such as glucose. This process is known as photosynthesis because",
+    "Sure! One everyday example of photosynthesis is the process of photosynthesis in a garden or backyard. When you plant a seedling in your garden, the sun's rays provide the necessary light energy for the plant to grow. As the plant grows, it releases water and carbon dioxide into the soil, which are then used to produce glucose and oxygen.\n\nThis process is crucial for the survival of many plants and animals on Earth. Without photosynthesis, we would not have access to food, clean water,",
+    "Well, imagine if you had a big box of crayons and you wanted to draw something special. You could use all the crayons in the box to make a picture. But if you didn't have enough crayons, you wouldn't be able to do anything at all!\n\nSimilarly, when you want to grow plants, you need to use the sunlight and other resources provided by the environment around you. If you don't have enough sunlight or other resources, you won't be able to grow healthy",
+    "One common misconception about photosynthesis is that it only happens in certain types of plants. In fact, photosynthesis occurs in almost every type of plant, including trees, grasses, and even some bacteria. However, some people may think that only certain types of plants are involved in photosynthesis, but this is not true. Photosynthesis is a universal process that can occur in any type of plant, regardless of its size or complexity.\n\nAnother common misconception is that photosynthesis only takes place during the day",
+    "Photosynthesis is an important part of our daily lives, especially in urban areas where there is limited access to natural light. In these areas, people often rely on artificial lighting to keep their homes warm and comfortable. However, this can lead to a decrease in the amount of sunlight available to plants, which can affect their ability to carry out photosynthesis.\n\nAdditionally, in cities with high levels of pollution, such as factories and cars, the amount of sunlight available to plants can be reduced even further. This",
+    "If you're interested in learning more about photosynthesis and how it affects our daily lives, I recommend checking out books like \"The Plant Life\" by David Hockney, which provides a detailed explanation of the process and its importance. Additionally, you might consider watching documentaries like \"The Green Revolution\" or \"The Great Green Wall,\" which explore the challenges faced by farmers trying to restore degraded ecosystems after deforestation. Finally, you might try reading articles like \"The Science of Plants\" by John W",
+    "I'm sorry, but I cannot summarize the conversation without additional context. Please provide me with more information about the topic you would like me to summarize."
+   ]
+  },
+  {
+   "var_sv_ai": 0.04056512685330089,
+   "E_ai_mean": 1.8887482559231303,
+   "epsilon_ai_mean": 0.4254918744166692,
+   "sv_ai": [
+    0.0,
+    0.82835,
+    0.81199,
+    1.15762,
+    1.34737,
+    0.98849,
+    1.16445,
+    1.3171
+   ],
+   "ai_texts": [
+    "Mount Everest is the highest mountain in the world, standing at an elevation of 8,848 feet (2,015 meters) above sea level. It is located in the Himalayan region of Asia and is one of the seven summits that make up the Seven Summits.\n\nThe name \"Everest\" comes from the Nepalese word \"Ehla,\" which means \"mountain.\" The mountain was first climbed by Edmund Hillary and Tenzing Norgay in",
+    "Mount Everest is considered to be the most challenging and physically demanding peak to climb due to its steep ascents and long distances to reach the summit. The altitude difference between the base camp and the summit can range from around 3,000 to 4,800 feet (990 to 16,400 meters), making it difficult for climbers to maintain their energy levels throughout the day.\n\nAdditionally, the weather conditions can also play a significant role in the difficulty of",
+    "Sure! Climbing Mount Everest requires a lot of physical strength and endurance. For example, a climber may need to carry heavy equipment such as ropes, harnesses, and ice axes while climbing. They may also have to navigate through treacherous terrain, including snow, ice, and cliffs, which can pose a challenge to their safety.\n\nIn addition, the high altitude required to reach the summit can be dangerous, especially if the climber has any underlying health issues or medical conditions. This can",
+    "Sure! Imagine you're playing with your friends and you want to go on a big adventure. You know that you'll need to take lots of different things with you, like snacks, water, sunscreen, and a map. But when you get there, you realize that you forgot all those things. You feel sad because you didn't have enough supplies to complete your adventure.\n\nNow imagine that you're climbing Mount Everest. You know that you'll need to carry heavy equipment like ropes, harnesses,",
+    "A common misconception about Mount Everest is that it's just a tall mountain. While Mount Everest is indeed a very tall mountain, it's not the tallest mountain in the world. The tallest mountain in the world is actually K2, which stands at an elevation of 8,611 feet (2,591 meters).",
+    "Mount Everest is a reminder of the importance of taking care of our bodies and minds. It's important to remember that we should always prioritize our health and well-being, even if it means going to places where we don't feel comfortable or safe. Additionally, it's important to appreciate the beauty and majesty of nature, even if we don't see it every day.",
+    "Following the advice given above, here are some practical tips:\n\n  * Always wear proper clothing and gear, including appropriate footwear and clothing.\n  * Stay hydrated and eat healthy foods to keep your body fueled and energized.\n  * Take breaks and rest often to avoid exhaustion and prevent injuries.\n  * Practice good mental health and seek help if you're struggling with stress or anxiety.\n  * Respect the environment and follow local laws and regulations to protect natural resources and wildlife.",
+    "Mount Everest is a very tall mountain that stands at an elevation of 8,848 feet (2,015 meters). It is considered to be the most challenging and physically demanding peak to climb due to its steep ascents and long distances to reach the summit. The high altitude required to reach the summit can be dangerous, especially if the climber has any underlying health issues or medical conditions."
+   ]
+  },
+  {
+   "var_sv_ai": 0.019825508473110293,
+   "E_ai_mean": 1.7845627335506442,
+   "epsilon_ai_mean": 0.24802082777023315,
+   "sv_ai": [
+    0.0,
+    0.74867,
+    0.89515,
+    1.01349,
+    1.12979,
+    0.88352,
+    0.70681,
+    0.77468
+   ],
+   "ai_texts": [
+    "Shakespeare is one of the most celebrated playwrights in history, known for his works such as \"Hamlet,\" \"Macbeth,\" \"Romeo and Juliet,\" \"Othello,\" \"King Lear,\" \"Twelfth Night,\" \"The Tempest,\" \"Candide,\" \"A Midsummer Night's Dream,\" \"As You Like It,\" \"Much Ado About Nothing,\" \"Henry V,\" \"The Merchant of Venice,\" \"The Winter's Tale,\" \"The Taming of",
+    "Shakespeare was a prolific writer who wrote over 30 plays and numerous other works throughout his life. He was also known for his ability to create complex characters and plotlines that engage audiences on multiple levels. Additionally, he was able to adapt his own experiences and emotions into his writing, which allowed him to create works that were both entertaining and thought-provoking. Finally, Shakespeare's work has had a lasting impact on literature and culture, and his legacy continues to be studied and admired by scholars",
+    "Certainly! One example of Shakespeare's influence can be seen in the way that his plays have been adapted into popular films and television shows. For instance, the play \"Macbeth\" has been adapted into several movies and TV series, including \"Macbeth: The Legend Continues,\" \"Macbeth: A New Generation,\" and \"Macbeth: The Final Chapter.\" Similarly, the play \"Hamlet\" has been adapted into a Broadway musical called \"Hamlet: The Musical,\" which has been performed",
+    "Sure! Imagine if you could take a piece of paper and fold it in half twice. That's what Shakespeare did with his plays. He made them smaller versions of himself, so they could be read out loud to children. This made them more accessible to people who couldn't read or write at the time. And guess what? They still work today!",
+    "There are many misconceptions about Shakespeare and his plays. Some common ones include:\n\n1. Shakespeare was a man from England.\n2. His plays were only written for adults.\n3. He never wrote anything down.\n4. He didn't like his own work.\n\nThese misconceptions are not accurate, but they do exist. However, it's important to remember that Shakespeare was a true genius who created some of the greatest works of literature ever written.",
+    "This connection to daily life is quite interesting! Shakespeare's plays have been adapted into countless forms of media, including books, movies, and even video games. These adaptations often incorporate elements of Shakespearean language and style, making them accessible to modern audiences. Additionally, Shakespeare's plays have inspired countless writers, actors, and musicians, leading to a rich cultural heritage that spans centuries. Furthermore, Shakespeare's plays have played an important role in shaping the literary traditions of Europe and beyond, influencing the development of modern",
+    "Following these insights can help us appreciate Shakespeare's works and their enduring impact on literature and culture. Here are a few practical tips:\n\n1. Read Shakespeare's plays aloud to children - Shakespeare's plays are full of clever dialogue and intricate characterizations, so reading them aloud can make them much easier to understand.\n\n2. Watch Shakespeare's plays on film - Watching Shakespeare's plays on film can provide a different perspective than reading them, allowing you to see the plays through a new lens.\n\n3. Listen to",
+    "Sure! Our conversation focused on Shakespeare and his plays, highlighting how they have influenced literature and culture, and how they continue to be relevant today. We discussed how Shakespeare's plays have been adapted into various forms of media, including books, movies, and video games, and how they have inspired countless writers, actors, and musicians. We also mentioned how Shakespeare's plays have played an important role in shaping the literary traditions of Europe and beyond, and how they continue to be relevant today. Overall, our"
+   ]
+  },
+  {
+   "var_sv_ai": 0.05349324103388079,
+   "E_ai_mean": 0.8355186503559809,
+   "epsilon_ai_mean": 0.6012869335245341,
+   "sv_ai": [
+    0.0,
+    0.58095,
+    1.20613,
+    1.05974,
+    1.0713,
+    0.76104,
+    1.13994,
+    1.26855
+   ],
+   "ai_texts": [
+    "The heart is responsible for pumping blood throughout the body, which carries oxygen and nutrients to cells and removes waste products from them. The heart's primary function is to pump blood into the arteries, where it circulates in the bloodstream. \n\nWhen the heart beats, it pumps blood into the left ventricle of the heart, which is located behind the right atrium (the \"right atrioventricular\" valve). This blood then travels down the coronary arteries, which branch off from the left vent",
+    "The reason why the heart pumps blood into the coronary arteries is because the heart has two chambers: the left ventricle and the right ventricle. The left ventricle is located behind the right atrium, while the right ventricle is located above the left atrium. When the heart beats, it moves the blood from the left ventricle to the right ventricle, which then returns it to the left atrium.\n\nThis movement of blood is facilitated by the action of",
+    "Sure! Imagine you're walking on a busy street. As you walk forward, your feet move the blood from your legs to your arms and hands. Your arms and hands then move the blood back to your legs. This process continues until you reach your destination.",
+    "Imagine you're playing with your toys. You put one toy in your mouth and another toy in your hand. Then you take both toys out of your mouth and put them in your hands. This is like pumping blood around inside your body.",
+    "One common misconception is that pumping blood around inside the body is just a normal part of our daily life. However, it's not. It's actually an important part of our bodies' ability to transport oxygen and nutrients throughout the body. Without pumping blood around inside the body, we wouldn't be able to breathe or do other important things.",
+    "Pumping blood around inside the body also plays a role in many other areas of daily life. For example, when you exercise, your muscles use blood to supply energy to your body. Similarly, when you eat, your digestive system uses blood to break down food and absorb nutrients. And when you sleep, your brain uses blood to carry oxygen and nutrients to all parts of your body. So, pumping blood around inside the body is just one part of a much larger system that helps us stay healthy and",
+    "If you have any questions or concerns about the heart and its role in the body, don't hesitate to ask. I'm here to help answer any questions you may have!",
+    "I'm sorry, but I can't summarize your conversation as there isn't enough information provided. Please provide more details so I can assist you better."
+   ]
+  },
+  {
+   "var_sv_ai": 0.04932403891642829,
+   "E_ai_mean": 1.1431115440365376,
+   "epsilon_ai_mean": 0.528521826180319,
+   "sv_ai": [
+    0.0,
+    0.6996,
+    0.67768,
+    0.86274,
+    0.91061,
+    0.75655,
+    0.75535,
+    1.37196
+   ],
+   "ai_texts": [
+    "Cats are one of the most popular and beloved domesticated animals in the world, with millions of people worldwide owning them as pets. Cats have been around for thousands of years and have evolved over time to become some of the most intelligent and affectionate animals on Earth.\n\nOne of the main reasons why cats are so popular is their ability to be highly independent and self-sufficient. They can live alone without needing human interaction or attention, which makes them ideal companions for those who prefer to spend more time",
+    "There are several reasons why cats are considered to be highly independent and self-sufficient:\n\n1. Intelligence: Cats are known for being very intelligent animals, with many breeds having exceptional cognitive abilities. They are able to learn new tricks and behaviors quickly, and they are also capable of understanding complex concepts like logic and reasoning.\n\n2. Self-reliance: Cats are also known for being very self-reliant animals. They are able to take care of themselves and avoid unnecessary stress by relying on their instincts",
+    "Sure! One everyday example of how cats are highly independent and self-reliant is when a cat is left alone at home. Many cats are trained to stay in certain areas of their home, such as their sleeping area or their food bowl, and they will not wander off if they feel threatened or uncomfortable.\n\nAnother example is when a cat is given a treat or a toy to play with after it has eaten its dinner. This behavior is often seen in cats who are highly independent and self-reli",
+    "Well, imagine if your friend gave you a treat and said \"Thank you!\" You might think that's what you did, but actually, you didn't. It was your friend who gave you the treat, not you. Similarly, cats are highly independent and self-reliant animals, and they don't need to be fed or watered every day. They just need to be taken care of and loved.",
+    "A common misconception about cats is that they are lazy and don't need exercise. While cats do require regular exercise to keep their muscles strong and healthy, they are not lazy creatures. In fact, cats are known for being very active animals, and they enjoy playing fetch, chasing balls, and engaging in other physical activities.\n\nAnother misconception is that cats are only interested in humans and not in other animals. While cats are social animals, they are not necessarily attracted to humans. They may be drawn to other",
+    "The misconception that cats are only interested in humans is a common one among pet owners, and it can lead to misunderstandings and frustration. However, there are ways to overcome this misconception and make the connection between cats and other areas of daily life clearer.\n\nFor example, instead of thinking of cats as passive creatures who simply sit and wait for attention, try to see them as curious and playful animals who love interacting with humans. Cats are known for being very social animals, and they enjoy spending time with other",
+    "Here are some practical tips that follow from the misconceptions about cats:\n\n  * Understand that cats are highly independent and self-reliant animals, and they don't need to be fed or watered every day.\n  * Recognize that cats are not lazy creatures and are not attracted to humans.\n  * Be open-minded and willing to engage in conversations with cats about their interests and needs.\n  * Encourage cats to interact with other animals and humans, rather than focusing solely on humans.",
+    "I'm sorry, but I am an AI language model and I cannot summarize a conversation in two sentences. My responses are generated based on patterns and patterns of language used in conversations. If you have any specific questions or topics you'd like me to address, please let me know and I'll do my best to provide a concise summary."
+   ]
+  },
+  {
+   "var_sv_ai": 0.026420422075636153,
+   "E_ai_mean": 1.8931237266911847,
+   "epsilon_ai_mean": 0.2689616878827413,
+   "sv_ai": [
+    0.0,
+    0.62713,
+    1.03788,
+    0.79575,
+    1.1386,
+    1.04656,
+    0.89851,
+    0.84273
+   ],
+   "ai_texts": [
+    "The Pacific Ocean is one of the world's most significant oceans, covering an area of approximately 20 million square kilometers and extending from the southern tip of South America to the northern tip of Australia. It is the second-largest ocean in terms of surface area after the Indian Ocean.\n\nThe Pacific Ocean is home to many unique marine life, including whales, dolphins, sharks, and numerous species of fish. It also contains some of the world's most diverse ecosystems, with over 150,0",
+    "There are several reasons why the Pacific Ocean is considered to be the largest ocean on the planet:\n\n1. Size: The Pacific Ocean covers an area of around 20 million square kilometers, which makes it the second-largest ocean in terms of surface area after the Indian Ocean.\n\n2. Depth: The Pacific Ocean extends from the southern tip of South America to the northern tip of Australia, making it the deepest ocean on Earth.\n\n3. Diversity: The Pacific Ocean contains over 150,0",
+    "Sure! One everyday example of the Pacific Ocean is the Pacific Ring of Fire, which is a region of high seismic activity that stretches across much of the Pacific Ocean. This region is where earthquakes occur at a rate of up to 60,000 per year, making it one of the most active regions on Earth.",
+    "Imagine if you were playing with your toys and suddenly a big earthquake happened. That's like when you play with your toy cars and they start moving all over the place. The Pacific Ring of Fire is like that - it's a big group of places where earthquakes happen a lot. And guess what? They're happening everywhere on Earth!",
+    "One common misconception about the Pacific Ocean is that it's just a big lake. In fact, it's actually a vast body of water that covers an area of around 20 million square kilometers. So, while it may seem like a lake, it's not really a lake at all.",
+    "The Pacific Ocean has a huge impact on the world around us. For example, it helps regulate global temperatures by absorbing heat from the sun. It also plays a role in weather patterns, such as hurricanes and typhoons. Additionally, the Pacific Ocean is important for agriculture, providing food and resources for millions of people worldwide.",
+    "If you want to learn more about the Pacific Ocean, you can check out websites like Wikipedia or watch documentaries like \"The Pacific\" on Netflix. You might also try reading books like \"The Pacific\" by David Attenborough, which provides detailed information about the ocean and its inhabitants.",
+    "The Pacific Ocean is the largest ocean on the planet, covering an area of around 20 million square kilometers and extending from the southern tip of South America to the northern tip of Australia. It is home to many unique marine life, including whales, dolphins, sharks, and numerous species of fish. The Pacific Ocean is also known for its size, depth, diversity, and seismic activity."
+   ]
+  },
+  {
+   "var_sv_ai": 0.04334923466938708,
+   "E_ai_mean": 0.9215149529854614,
+   "epsilon_ai_mean": 0.6341322114070257,
+   "sv_ai": [
+    0.0,
+    0.9715,
+    1.22834,
+    1.03836,
+    0.83305,
+    0.77585,
+    1.0004,
+    1.42615
+   ],
+   "ai_texts": [
+    "Bread is made from flour, water, and yeast. The process of making bread involves several steps:\n\n1. Flour: The first step in the bread-making process is to grind or knead the wheat into flour. This is done using a dough hook or a hand mixer.\n\n2. Water: Next, the flour is mixed with warm water until it forms a dough. This mixture is then allowed to rise for several hours or overnight.\n\n3. Yeast: After the dough has risen, it",
+    "The reason why the dough rises is due to the action of the yeast. Yeast is a type of fungus that lives on the surface of grains. When the yeast is exposed to oxygen, it produces carbon dioxide gas, which causes the dough to expand and rise.\n\nIn addition, the temperature at which the dough is baked can also affect its rise. High temperatures help to speed up the fermentation process, while low temperatures slow down the process. Additionally, the amount of moisture in the dough affects its rise",
+    "Sure! Let's say you have some flour and water in your kitchen. You would first grind or knead the flour into a fine powder. Then, you would mix this flour with warm water until it forms a dough. Once the dough is formed, you would let it rest for a few hours or overnight. Finally, you would bake the dough in a preheated oven until it becomes golden brown and crispy.",
+    "Imagine you have a big box of flour and a bowl of water. If you mix these two things together, they form a dough. The dough will become soft and stretchy when you roll it out and cut it into shapes. And if you let it cool enough, it will turn into something crunchy and delicious. So, we call this process \"baking\" because it takes time and effort to make something good.",
+    "There are many misconceptions about baking. One common one is that baking is only for cakes and cookies. In fact, there are many other types of baked goods, such as pastries, pies, and sandwiches. Another common misconception is that baking requires a lot of energy. While baking does require some energy, it is not necessary to make everything perfectly. It just takes time and patience to get the perfect result.",
+    "Baking is a fundamental skill that can be applied to many different areas of daily life. For example, you might use baking to prepare meals for family members or friends. Or you could use baking to decorate your home or create unique decorations for special occasions. Baking can also be used to express creativity and artistic expression. And finally, baking can be used to teach children important skills like problem-solving and teamwork.",
+    "If you follow the tips I've given you, you should be able to enjoy baking and cooking more easily. Remember to practice patience and consistency, and always keep an eye on the dough as it rises. Also, don't forget to experiment with different ingredients and techniques to find what works best for you. With practice, you'll be able to make delicious and healthy baked goods in no time!",
+    "I'm sorry, but I am unable to summarize your conversation since I do not have access to any information about who you are or what you were discussing. Please provide me with more details so I can assist you better."
+   ]
+  },
+  {
+   "var_sv_ai": 0.08254128792596248,
+   "E_ai_mean": 0.8816701083084265,
+   "epsilon_ai_mean": 0.6443557192881902,
+   "sv_ai": [
+    0.0,
+    0.69113,
+    1.25138,
+    1.17409,
+    1.04256,
+    0.57817,
+    0.85858,
+    1.43505
+   ],
+   "ai_texts": [
+    "The Moon orbits the Earth approximately 27.3 days (or 29.5 Earth days) around its axis, which is perpendicular to the plane of the Earth's surface and passes through the center of the Earth at the same time as the Earth completes one orbit around the Sun. This means that the Moon appears to be in the sky for about 1/4th of an hour each day.\n\nThis period of time between the full moon and the next new moon is known as a",
+    "There are several reasons why the Moon appears to be in the sky for only 1/4th of an hour each day:\n\n1. The Earth rotates on its axis: The Earth rotates on its axis every 24 hours, so it takes about 24 hours for the Moon to complete one orbit around the Earth. However, because the Earth rotates on its axis, the Moon does not appear to move as much as the Earth does. As a result, the Moon appears to be in",
+    "Sure! Here's a concrete everyday example:\nEvery morning, I wake up and see the beautiful view of the Moon rising over my backyard. It's like a reminder of the beauty of nature and the wonder of the universe.",
+    "Imagine you're watching a big, bright ball of light called the Moon. It looks really small and round, but it's actually very big and bright. When you look at it from a distance, you can see it moving slowly and steadily. But when you get close enough, you can see it moving quickly and brightly. That's what makes the Moon look like it's \"rising\" or \"setting\" - it's moving faster and brighter than usual.",
+    "One common misconception about the Moon is that it moves slower during the winter months. In fact, the Moon moves more slowly during the winter months than it does during the summer months. This is because the Earth's rotation causes the Moon to move closer to the Sun during the winter months, while it moves farther away during the summer months.",
+    "The idea that the Moon moves slower during the winter months is connected to many other areas of daily life. For example, if you're trying to figure out where the Moon is in the sky, you might notice that it appears to be moving slower during the winter months. You could also use a compass to help you find the direction of the Moon, since the Moon is always directly above the horizon during the winter months. And if you're planning your meals, you might notice that the Moon is usually",
+    "Here are some practical tips based on the information provided:\n\n  * If you're trying to figure out where the Moon is in the sky, try using a compass.\n  * If you're planning your meals, make sure to check the Moon's position before cooking to avoid any unexpected changes in the food.\n  * If you're looking for a way to learn more about the Moon, you could try reading books or watching documentaries about the Moon.",
+    "I'm sorry, but I don't have any information about a conversation we had. Could you please provide more details or context so I can assist you better?"
+   ]
+  }
+ ]
+}
